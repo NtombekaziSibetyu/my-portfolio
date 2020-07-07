@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.2fb53825.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.cb7e5a6b.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.cb7e5a6b.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.8b00eace.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.8b00eace.js.map",
+    "static/js/2.6ea6de77.chunk.js": "/my-portfolio/static/js/2.6ea6de77.chunk.js",
+    "static/js/2.6ea6de77.chunk.js.map": "/my-portfolio/static/js/2.6ea6de77.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "precache-manifest.12641c8b56bd119feaba8ea3b8879df7.js": "/my-portfolio/precache-manifest.12641c8b56bd119feaba8ea3b8879df7.js",
+    "service-worker.js": "/my-portfolio/service-worker.js",
+    "static/css/main.2fb53825.chunk.css.map": "/my-portfolio/static/css/main.2fb53825.chunk.css.map",
+    "static/js/2.6ea6de77.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.6ea6de77.chunk.js.LICENSE.txt",
+    "static/media/contact-keeper.png": "/my-portfolio/static/media/contact-keeper.1cbf8084.png",
+    "static/media/github.png": "/my-portfolio/static/media/github.8aef9201.png",
+    "static/media/it-logger.png": "/my-portfolio/static/media/it-logger.ecf7c6d4.png",
+    "static/media/website.png": "/my-portfolio/static/media/website.3e12f72e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b00eace.js",
+    "static/js/2.6ea6de77.chunk.js",
+    "static/css/main.2fb53825.chunk.css",
+    "static/js/main.cb7e5a6b.chunk.js"
+  ]
+}
