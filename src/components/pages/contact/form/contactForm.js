@@ -1,5 +1,5 @@
 import React from "react";
-import './form.css'
+import './form.css';
 
 export default class ContactForm extends React.Component {
   constructor(props) {
@@ -56,7 +56,7 @@ export default class ContactForm extends React.Component {
                   placeholder="Write your message..."
                 />
                 <div>
-                {status === "SUCCESS" ? <p>Email sent. Thanks!</p> : <button className='contact-form'>Submit</button>}
+                {status === "SUCCESS" ? <p>Email sent. Thanks!</p> : <button className='contact-form'>Send</button>}
                 {status === "ERROR" && <p>Ooops! There was an error.</p>}
                 </div>
                </div>

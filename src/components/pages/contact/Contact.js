@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ContactForm from './form/contactForm';
-import './Contact.css'
+import './Contact.css';
 
 
 const Contact = (props) => {
@@ -12,16 +12,16 @@ const Contact = (props) => {
             <h2>Get in touch</h2>
           <div className='container'>
             <div className='row'>
-                <div className='col-4'>
-                <i class="fas fa-phone-square fa-2x"></i>
+                <div className='col-3'>
+                <i class="fas fa-phone-square fa-3x"></i>
                 <p>Call:{props.cellNo}</p>
                 </div>
-                <div className='col-4'>
-                <i class="fab fa-github fa-2x"></i>
+                <div className='col-3'>
+                <i class="fab fa-github fa-3x"></i>
                 <p><a href={props.github} className="">Github Link</a></p>
                 </div>
-                <div className='col-4'>
-                <i class="fab fa-linkedin-in fa-2x" ></i>
+                <div className='col-3'>
+                <i class="fab fa-linkedin-in fa-3x" ></i>
                 <p><a href={props.linkedin} className="">LinkedIn</a></p>
                 </div>
             </div> 
