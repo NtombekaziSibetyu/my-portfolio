@@ -1,0 +1,31 @@
+
+.form-content {
+	margin: 1px;
+  padding: 30px ;
+  background: #224;  
+  opacity: 0.9;
+	width: 100%;
+  color: #fff;
+	transition: all 1.7s ease;
+}
+
+.form-content:hover{
+	background: #360033;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #fff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col-3 {
+    margin: 0px;
+    box-shadow: 1px;
+    flex: 0 1 24%;
+    opacity: 5;
+}
+
+  

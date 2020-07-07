@@ -1,0 +1,12 @@
+
+
+.progress-bar {
+    background: linear-gradient(to right, lighten(#7b4397, 10%) , lighten(#dc2430, 10%));
+    height: 20px;
+    width: 15px;
+    border-radius: 9px;
+    align-content: center;
+  }
+ 
+  
+  

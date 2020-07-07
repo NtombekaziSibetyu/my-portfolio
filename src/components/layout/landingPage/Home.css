@@ -1,0 +1,54 @@
+.land-page {
+  margin: 500px;
+  width: 960px; 
+  padding-left: 30px;
+  padding-right: 30px;
+  display: table-cell;
+	vertical-align: middle;
+}
+
+.typewriter h1 {
+    overflow: hidden; 
+    border-right: .15em ; 
+    padding-right: 10px;
+    
+    white-space: nowrap; 
+    margin-top: 100px;
+    letter-spacing: .15em; 
+    left: 50%;
+    top: 50%;
+    font-size: 30px;
+    font-weight: 900;
+    color:#FFFFFF;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 50% }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+.block {
+  color: #000;
+  opacity: 0.9;
+  padding: 7px;
+  padding-top: 500px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3%;
+}
+.card-text {
+  color: #FFFFFF;
+}
