@@ -12,7 +12,7 @@ const Background = ({ text }) => {
             <ReactTypingEffect
             className='typewriter h1'  speed='500' eraseDelay='500' typingDelay='500' cursor='|'
             text={text} />
-            <p className='card-text'>HTML\ CSS | Bootstrap | JavaScript | React | Python | MySQL | MongoDB</p>
+            <p className='card-text'>HTML\ CSS | Bootstrap | JavaScript | React | Python | MySQL </p>
             </div>  
         <div class="stars">
         <div class="star"></div>
