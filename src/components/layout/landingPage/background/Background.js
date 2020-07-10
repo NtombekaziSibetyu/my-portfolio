@@ -7,8 +7,6 @@ import ReactTypingEffect from 'react-typing-effect';
 
 const Background = ({ text }) => {
     return (
-      
-           
         <div className='page'>
         <div className='block text-center'> 
             <ReactTypingEffect
@@ -17,6 +15,18 @@ const Background = ({ text }) => {
             <p className='card-text'>HTML\ CSS | Bootstrap | JavaScript | React | Python | MySQL | MongoDB</p>
             </div>  
         <div class="stars">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
         <div class="star"></div>
         <div class="star"></div>
         <div class="star"></div>
