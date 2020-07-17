@@ -9,7 +9,7 @@ const Contact = (props) => {
     return (
         <div className='form-content'>
           <div>
-            <h2>Get in touch</h2>
+            <h2>Contact Details</h2>
           <div className='container'>
             <div className='row'>
                 <div className='col-3'>
