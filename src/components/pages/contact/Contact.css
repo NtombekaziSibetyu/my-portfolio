@@ -2,11 +2,12 @@
 .form-content {
 	margin: 0;
   padding: 30px ;
-  background: #e0e0e0;  
+  background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+
   opacity: 0.9;
 	width: 100%;
-  color: #00000F;
-	transition: all 1.7s ease;
+  color: #FFFFFF;
+	
 }
 
 .row {
@@ -19,13 +20,16 @@
     box-sizing: border-box;
     border:solid #757575;
     box-shadow: 1px;
+    color: #FFFFFF;
     flex: 0 1 24%;
     opacity: 5;
 }
-.col-3 .i
+.col-3 .i{
+ color: #00000F;
+}
 .col-3 .a.i
 {
+  margin: 1px;
   padding: 1px;
-  color: #00000F;
 }
  

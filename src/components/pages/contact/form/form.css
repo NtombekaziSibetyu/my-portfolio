@@ -2,18 +2,20 @@
   padding: 10px;
   margin: 10px;
   background-color: transparent;
+  color: #FFFFFF;
   border: solid #757575;
   box-shadow: 0.5px;
 }
 .label{
-  color: #00000F;
+  color: #FFFFFF;
 }
 .form-button {
     position: relative;
-    background-color: #e0e0e0;
+    background-color: transparent;
     font-size: 20px;
-    color: #00000F;
+    color: #FFFFFF;
     border: solid #757575;
+    margin: 5px;
     padding: 10px;
     width: 100px;
     text-align: center;

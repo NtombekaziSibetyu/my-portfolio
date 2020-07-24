@@ -20,9 +20,12 @@ const Portfolio = () => {
                         <img className='card-img' 
                         src={img2} alt='contact-keeper'>
                         </img>
+                        <p>The app lets a user login and add a contact, view contacts, update and delete contacts</p>
                         <p>
-                          <a href="https://github.com/NtombekaziSibetyu/Contact-Keeper" 
-                              target='_blank' className="">Github link</a>
+                        <a href="https://github.com/NtombekaziSibetyu/Contact-Keeper"  
+                              target='_blank'>
+                              GitHub  
+                          </a>
                         </p>
                       </div>     
                     </div>
@@ -35,7 +38,7 @@ const Portfolio = () => {
                              with an option to create a new profile
                           </p> 
                           <p><a href="https://github.com/NtombekaziSibetyu/webDesignProject"
-                            target='_blank' >Github link</a>
+                            target='_blank' >GitHub</a>
                           </p>
                       </div>                          
                     </div>
@@ -48,10 +51,11 @@ const Portfolio = () => {
                         src={img4} 
                         alt='gith-search'></img>
                         <p>
-                         A React App that enables a user to search for the github user profile
+                         A React App that enables a user to search for the github user
+                          and get the github user by typing a name and get their profile information
                         </p>
                         <p><a href='https://github.com/NtombekaziSibetyu/search-github-users' target='_blank'>
-                          Github Link</a></p>
+                          GitHub</a></p>
                     </div>
                   </div>
                   <div className='col-6'>
@@ -66,7 +70,7 @@ const Portfolio = () => {
                           You can also add or delete the technicians 
                         </p>
                         <p><a href="https://github.com/NtombekaziSibetyu/IT-Logger" target='_blank'>
-                          Github link</a>
+                          GitHub</a>
                         </p>
                     </div>      
                   </div>

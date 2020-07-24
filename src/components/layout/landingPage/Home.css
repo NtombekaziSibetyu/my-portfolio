@@ -1,8 +1,7 @@
 .land-page {
   margin: 500px;
   width: 960px; 
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 30px;
   display: table-cell;
 	vertical-align: middle;
 }

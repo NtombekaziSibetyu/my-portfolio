@@ -17,8 +17,15 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
+.col-6 {
+    display: table;
+    flex: 1;
+    padding: 16px;
+    width: 100%;
+    display: table-cell;
+  }
 .card {
     padding: 10px;
     background-color: transparent;
