@@ -9,20 +9,23 @@ const Contact = (props) => {
     return (
         <div className='form-content'>
           <div>
-            <h2>Contact Details</h2>
+            <h2>GET IN TOUCH</h2>
           <div className='container'>
             <div className='row'>
                 <div className='col-3'>
-                <i class="fas fa-phone-square fa-3x"></i>
-                <p>Call:{props.cellNo}</p>
+                <i class="fas fa-phone-square fa-5x far-center"></i>
+                <p>Call : {props.cellNo}</p>
                 </div>
                 <div className='col-3'>
-                <i class="fab fa-github fa-3x"></i>
-                <p><a href={props.github} className="">Github Link</a></p>
+                <a href={props.github} target='_blank' className="">
+                  <i class="fab fa-github-square fa-5x fa-center"/></a>
+                <p>See more of my work on GitHub</p>
                 </div>
                 <div className='col-3'>
-                <i class="fab fa-linkedin-in fa-3x" ></i>
-                <p><a href={props.linkedin} className="">LinkedIn</a></p>
+                <a href={props.linkedin} target='_blank' className="">
+                <i class="fab fa-linkedin-in fa-5x fa-center" />
+                </a>
+                <p>LinkedIn</p>
                 </div>
             </div> 
             <ContactForm/>

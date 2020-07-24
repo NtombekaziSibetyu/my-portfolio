@@ -1,32 +1,31 @@
 
 .form-content {
-	margin: 1px;
+	margin: 0;
   padding: 30px ;
-  background: #224;  
+  background: #e0e0e0;  
   opacity: 0.9;
 	width: 100%;
-  color: #fff;
+  color: #00000F;
 	transition: all 1.7s ease;
-}
-
-.form-content:hover{
-	background: #360033;  
-  background: -webkit-linear-gradient(to right, #0b8793, #360033);  
-  background: linear-gradient(to right, #0b8793, #360033); 
-	color: #fff;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 .col-3 {
     margin: 0px;
-    border: #fff;
+    box-sizing: border-box;
+    border:solid #757575;
     box-shadow: 1px;
     flex: 0 1 24%;
     opacity: 5;
 }
-
+.col-3 .i
+.col-3 .a.i
+{
+  padding: 1px;
+  color: #00000F;
+}
  

@@ -12,15 +12,17 @@ export default class ContactForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <form
+      <form className='form'
         onSubmit={this.submitForm}
         action="https://formspree.io/xleppnqw"
         method="POST"
       >
       <div className="form-group">
+      <h4>Send an email</h4>
+
             <div className="row">
               <div className="col-12 col-sm-12 col-md-6 mx-auto">
-              <label>Name:</label>
+              <label>Name  : </label>
                 <input
                   type="text"
                   name="name"
@@ -34,7 +36,7 @@ export default class ContactForm extends React.Component {
           <div className="form-group hidden">
             <div className="row">
               <div className="col-12 col-sm-12 col-md-6 mx-auto">
-              <label>Email:</label>  
+              <label>Email : </label>  
                 <input
                   type="email"
                   name="_replyto"
@@ -56,7 +58,7 @@ export default class ContactForm extends React.Component {
                   placeholder="Write your message..."
                 />
                 <div>
-                {status === "SUCCESS" ? <p>Email sent. Thanks!</p> : <button className='contact-form'>Send</button>}
+                {status === "SUCCESS" ? <p>Email sent. Thanks!</p> : <button className='form-button'>Send</button>}
                 {status === "ERROR" && <p>Ooops! There was an error.</p>}
                 </div>
                </div>

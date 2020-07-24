@@ -5,34 +5,36 @@ import {Link} from 'react-router-dom';
 
 
 const Navbar = (props) => {
+    const navigator = () => {
+        const x = document.getElementById("topNav");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+          } else {
+          x.className = "navbar";
+        }
+      }
     return (
-        <div className="navbar fixed-to-top"> 
-            <ul>
-                <li>
-                    <Link to={'/'}>
-                        <i className={props.homeIcon}/>
-                            {props.homeTitle}
-                        </Link>
-                </li>
-                <li>
-                    <Link to={'/about'}>
-                        <i className={props.aboutIcon}/>
-                            {props.aboutTitle}
-                        </Link>
-                </li>
-                <li>
-                    <Link to={'/skills'}>
-                        <i className={props.skillsIcon}/>
-                            {props.skillsTitle}
-                    </Link>
-                </li>
-                <li>
-                    <Link to={'/contact'}>
-                        <i className={props.contactIcon}/>
-                            {props.contactTitle}
-                    </Link>
-                </li>
-            </ul>
+        <div className="navbar" id='topNav'> 
+            <Link to={'/'}>
+                <i className={props.homeIcon}/>
+                    {props.homeTitle}
+            </Link>
+            <Link to={'/about'}>
+                <i className={props.aboutIcon}/>
+                {props.aboutTitle}
+            </Link>
+            <Link to={'/skills'}>
+                <i className={props.skillsIcon}/>
+                {props.skillsTitle}
+            </Link>
+             <Link to={'/contact'}>
+                <i className={props.contactIcon}/>
+                {props.contactTitle}
+            </Link>
+            <a href="!#" className="icon" >
+                <i className="fa fa-bars" onClick={navigator}></i>
+            </a>
+             
         </div>
     )
 }

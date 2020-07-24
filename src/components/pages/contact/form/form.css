@@ -1,9 +1,19 @@
+.form{
+  padding: 10px;
+  margin: 10px;
+  background-color: transparent;
+  border: solid #757575;
+  box-shadow: 0.5px;
+}
+.label{
+  color: #00000F;
+}
 .form-button {
     position: relative;
-    background-color:N/A transparent;
-    border: none;
+    background-color: #e0e0e0;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #00000F;
+    border: solid #757575;
     padding: 10px;
     width: 100px;
     text-align: center;
@@ -20,7 +30,7 @@
     position: absolute;
     padding-top: 30%;
     padding-left: 20%;
-    margin-left: -20px!important;
+    margin-left: -20px;
     margin-top: -20%;
     opacity: 0;
     transition: all 0.8s

@@ -6,8 +6,8 @@ class ProgressBar extends React.Component {
       super(props);
       this.state = {
         progress:{
-            html: '90',
-            css: '70',
+            html: '70',
+            css: '60',
             bootstrap: '60',
             python:'80',
             mysql:'90',
@@ -23,6 +23,9 @@ class ProgressBar extends React.Component {
         }
         return (
         <div className='skill-bar'>
+          <h1> My Skills</h1>
+          <p>These are the languages that i have learned and  
+            used to create my projects</p>
             <div className='row'>
                 <div className='col-6'>
                     <h5>HTML</h5>
