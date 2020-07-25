@@ -2,15 +2,19 @@
 .info-container {
     margin: 0px;
     padding: 20px;
-    background: #e0e0e0;
-    display: table;
+    width: 100%;
+    background-color: #bdbdbd;
     color:#00000F;
 }
 
 .container{
-    padding: 20px;
+    padding: 10px;
     background-color: transparent;
     color:#00000F;
+}
+.row {
+    padding: 10px;
+   
 }
 
 .header{
@@ -18,15 +22,21 @@
 }
 
 .col-6  {
-    margin: 30px;
+    margin: 10px;
     padding: 2px;
     opacity: 0.8;
     display: table-cell;
     color:#00000F;
 }
-
+.col-8{
+    width: fit-content;
+    border-radius: 5%;
+    border: solid #757575;
+    box-shadow: #00000F;
+}
 .round-img{
     border-radius: 50%;
+    border: solid #757575;
 }
 
 .col-container {
@@ -45,7 +55,7 @@
     background-color: black;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .col {
         display: block;
         width: 100%;

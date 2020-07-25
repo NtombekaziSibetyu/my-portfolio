@@ -3,6 +3,7 @@ import './About.css';
 import PropTypes from 'prop-types';
 import mypic from './mypic.JPG'
 import ProgressBar from '../portfolio/ProgressBar';
+import Passion from './Passion';
 
 
  const About = (props) => {
@@ -10,14 +11,15 @@ import ProgressBar from '../portfolio/ProgressBar';
     return (
         <div className='info-container'>
             <div className='container'>
-            <h1 className='header'>HI I'M NTOMBEKAZI </h1>
+                <h1 className='header'>HI <i className='fas fa-smile' style={{color:'#ffd740'}}/>  I'M NTOMBEKAZI 
+                </h1>
             <div className='row'>
                 <div className='col-4 '>
                 <img src={mypic}  className='round-img' alt="profile" 
-                    style={{width:'250px'}}/>  
+                    style={{width:'250px'},{height:'280px'}}/>  
                 </div>
                 <div className='col-8'>
-                <h3 className='sub-header'><strong>BIO</strong></h3>
+                    <h3 className='sub-header'><strong>BIO</strong></h3>
                     <p> Full Name : {props.fullname}</p>
                     <p> Date of birth : {props.dob}</p>
                     <p> Gender : {props.gender}</p>
@@ -25,7 +27,10 @@ import ProgressBar from '../portfolio/ProgressBar';
                     <p> Nationality : {props.nationality}</p>
                     <p> Criminal record : {props.criminalRec}</p>
                 </div> 
-                <h4><strong>About me</strong></h4>
+                  
+            </div>
+            <p></p>
+                <h3><strong>About me</strong></h3>
                     <p >
                     I am a self motivated person who is always willing to learn and expand my skills and 
                     knowledge. I am an ambitious individual driven by the desire to succeed and advance 
@@ -42,18 +47,16 @@ import ProgressBar from '../portfolio/ProgressBar';
                     for problems using technology. During the course at Life Choices I realised that I enjoy
                      coding and I can achieve a lot with it hence I decided to persue a career in web development.
                     </p> 
-                </div>
-                <h3 ><strong>Interests</strong></h3>
-                <ul>
-                <li>
-                    Reading fiction and nonfiction and history books </li>
-                <li>Drawing</li>
-                <li>Watching movies and series</li>
-                <li>Writing</li>
-            </ul>
+                <h3 ><i className='fas fa-heart fa-1x' style={{color:'#f44336'}}/>
+                    <strong>PASSION BOARD</strong></h3>
+                <Passion/>
             </div>
             <div className='container'>
-            <h3><strong>EDUCATION / WORK EXPERIENCE</strong></h3>
+            
+            <ProgressBar/>
+            <p></p>
+            <h3><i className="fas fa-graduation-cap fa-2x" style={{color:'#1a237e'}}></i>
+                <strong>EDUCATION / WORK EXPERIENCE</strong></h3>
             <h4 ><strong>Matric </strong></h4>
             <p>Year : 2014</p>
             <p>School : {props.school}</p>
@@ -62,9 +65,11 @@ import ProgressBar from '../portfolio/ProgressBar';
             <p>Qualification : {props.tertiary}</p>
             <h4><strong>Current  </strong></h4>
             <p>{props.current}</p>
-            <h4><strong>Work Experience</strong></h4>
+            <h4>
+            <i class="fas fa-briefcase fa-2x" style={{color:'#00897b '}} ></i>
+            <strong> WORK EXPERIENCE </strong></h4>
             <p>I do not have any work experience</p>
-                <ProgressBar/>
+               
             </div>          
             
             <div className='container'>
@@ -103,7 +108,7 @@ import ProgressBar from '../portfolio/ProgressBar';
                     great potential and will be an asset in the workplace</p>
                     </div>
                 </div>
-                <div className='col'>
+                <div className='col'> 
                     <div className='card'>
                     <p>
                     Yonela Ntsangani - Collegue
@@ -132,7 +137,7 @@ About.defaultProps = {
     suburb: 'Khayelitsha, Cape Town',
     nationality: 'South African',
     criminalRec: 'No criminal record',
-    school: 'COSAT : Center of Science and Technology',
+    school: ' COSAT - Center of Science and Technology',
     tertiary: 'BSc Biotechnology ( 2015 - 2018 ) ',
     current: 'Life Choices Academy  : Coding ( 2020 )'
 }

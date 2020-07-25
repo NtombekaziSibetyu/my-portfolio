@@ -12,7 +12,10 @@
   background-color: #333333;
     
   }
-  
+.myname{
+  color: #f4f4f4;
+  font-family: 'Times New Roman';
+} 
 .navbar a {
     color: #f4f4f4;
     text-decoration: none;
@@ -28,7 +31,7 @@
 }
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
-  .navbar a.icon .fa.fa-bars {
+  .navbar .icon .fa.fa-bars {
     float: right;
     display: block;
   }

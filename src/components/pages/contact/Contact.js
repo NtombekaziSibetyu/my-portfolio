@@ -13,7 +13,7 @@ const Contact = (props) => {
           <div className='container'>
             <div className='row'>
                 <div className='col-3'>
-                <i class="fas fa-phone-square fa-5x far-center"></i>
+                <i class="fas fa-phone-square fa-5x far-center" style={{ color:'#1e88e5'}}></i>
                 <p>Call : {props.cellNo}</p>
                 </div>
                 <div className='col-3'>

@@ -2,6 +2,7 @@
  color: #00000F;
 }
 .progress-bar {
+  padding: 10px;
     height: 20px;
     width: 15px;
     border-radius: 9px;

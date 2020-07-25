@@ -14,7 +14,8 @@ const Navbar = (props) => {
         }
       }
     return (
-        <div className="navbar" id='topNav'> 
+        <div className="navbar" id='topNav'>
+            <h3 className='myname'>Ntombekazi</h3> 
             <Link to={'/'}>
                 <i className={props.homeIcon}/>
                     {props.homeTitle}

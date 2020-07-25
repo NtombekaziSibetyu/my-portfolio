@@ -12,17 +12,16 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+  background-image: url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60);
+  background-color: #00000F;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  background-size: cover;
   overflow: hidden;
 }
-.page ​img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-  width: 2px;
-  height: 2px;
-}
+
+
 .typewriter h1 {
   overflow: hidden; 
   border-right: .15em ; 
@@ -34,11 +33,11 @@
   top: 50%;
   font-size: 50px;
   font-weight: 900px;
-  color:#FFFFFF;
+  color:#00000F;
   position: absolute;
   transform: translate(-50%, -50%);
   animation: 
-      typing 2.5s steps(40, end),
+      typing 1.5s steps(40, end),
       blink-caret .75s step-end infinite;
   }
 
@@ -53,7 +52,7 @@
   }
 
 .block {
-  color: #FFFFFF;
+  color:#00000F;
   opacity: 0.9;
   padding: 7px;
   padding-top: 100px;
@@ -63,6 +62,7 @@
   border-radius: 3%;
 }
 .card-text {
-  color: #FFFFFF;
+  color: #00000F;
   font-size: 20px;
+  font: caption;
 }

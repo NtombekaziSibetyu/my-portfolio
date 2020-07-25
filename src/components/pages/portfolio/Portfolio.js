@@ -16,7 +16,7 @@ const Portfolio = () => {
                 <div className='row'>
                     <div className='col-6'>
                       <div className='card'>
-                        <h4>Contact keeper app</h4>
+                        <h4>Contact Keeper App</h4>
                         <img className='card-img' 
                         src={img2} alt='contact-keeper'>
                         </img>
@@ -31,7 +31,7 @@ const Portfolio = () => {
                     </div>
                     <div className='col-6'>
                       <div className='card'>
-                        <h4>Company employees profile website</h4>
+                        <h4>Company Employees Profiles website</h4>
                         <img className='card-img' 
                           src={img} alt='website'></img>
                           <p>A website that displays company employees profiles 
@@ -46,7 +46,7 @@ const Portfolio = () => {
                 <div className='row'>
                   <div className='col-6'>
                     <div className='card'>
-                        <h4>Github searcher App</h4>
+                        <h4>Github Searcher App</h4>
                         <img className='card-img' 
                         src={img4} 
                         alt='gith-search'></img>
@@ -60,7 +60,7 @@ const Portfolio = () => {
                   </div>
                   <div className='col-6'>
                     <div className='card'>
-                      <h4>Technicians Log System</h4>
+                      <h4> Log System App</h4>
                       <img className='card-img' 
                           src={img3} alt='it-logger'
                         ></img>

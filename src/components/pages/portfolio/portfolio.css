@@ -26,6 +26,18 @@
     width: 100%;
     display: table-cell;
   }
+
+@media screen and (max-width: 600px) {
+  .row { 
+    display: grid;
+    width: 100%;
+  }
+  .col-6 {
+    float: right;
+    display: block;
+    width: 100%;
+  }
+}
 .card {
     padding: 10px;
     background-color: transparent;
