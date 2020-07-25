@@ -17,10 +17,11 @@ const Passion = () => {
       }
       setTimeout(showSlides, 2000);
     return (
-        <div >
+        <div className='' >
         <div className="slideshow-container">
           <div className='mySlides fade'>
-              <img src='https://images.unsplash.com/photo-1549122728-f519709caa9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60'/>
+              <img src='https://indianfolk.com/wp-content/uploads/2018/10/Movie.jpg'>
+                  </img>            
               <div className='text'>caption1</div>
           </div>
           <div className='mySlides fade'>

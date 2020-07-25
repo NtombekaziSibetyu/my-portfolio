@@ -3,8 +3,8 @@
   padding: 30px ;
   opacity: 0.9;
   width: 100%;
-  background:#e0e0e0;  
-  color:#00000F;
+  background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+  color:#FFFFFF;
 }
 
 .skill-name {
@@ -12,7 +12,7 @@
   }
   
 .text {
-    color: #00000F;
+    color: #FFFFFF;
 }
 .row {
     display: flex;
@@ -42,7 +42,7 @@
     padding: 10px;
     background-color: transparent;
     margin: 1px;
-    color: #00000F;
+    color: #FFFFFF;
     flex: 0 1 24%;
     border: solid #757575;
     box-shadow: 0.5px;
