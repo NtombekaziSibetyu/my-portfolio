@@ -45,7 +45,7 @@ import Passion from './Passion';
                     something technology related but with some science because I love science also.
                     In coding love the fact that I am able to take part and have a role in producing solutions 
                     for problems using technology. During the course at Life Choices I realised that I enjoy
-                     coding and I can achieve a lot with it hence I decided to persue a career in web development.
+                     coding and I can achieve a lot with it hence I decided to pursue a career in web development.
                     </p> 
                 <h3 ><i className='fas fa-heart fa-2x' style={{color:'#f44336'}}/>
                         <strong>PASSION BOARD</strong></h3>
