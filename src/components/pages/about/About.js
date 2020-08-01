@@ -86,7 +86,7 @@ import Passion from './Passion';
             <h4><strong>Current  </strong></h4>
             <p>{props.current}</p>
             <h4>
-            <i class="fas fa-briefcase fa-2x" style={{color:'#00897b '}} ></i>
+            <i className="fas fa-briefcase fa-2x" style={{color:'#00897b '}} ></i>
             <strong> WORK EXPERIENCE </strong></h4>
             <p>I do not have any work experience</p>
                
