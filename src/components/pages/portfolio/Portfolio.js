@@ -76,6 +76,9 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
+              <div className='final-project'>
+
+              </div>
           </div>
   )
 }
