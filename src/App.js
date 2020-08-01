@@ -14,10 +14,10 @@ const App = () => {
         <Fragment>
           <Navbar/>
           <Switch>
-              <Route path={'/'} component={Home}/>
-              <Route path={'/about'} component={About}/>
-              <Route path={'/contact'} component={Contact}/>
-              <Route path={'/skills'} component={Portfolio}/>
+              <Route path='/' component={Home}/>
+              <Route path='/about' component={About}/>
+              <Route path='/contact' component={Contact}/>
+              <Route path='/skills' component={Portfolio}/>
             </Switch>
         </Fragment>
       </Router>
