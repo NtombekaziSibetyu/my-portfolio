@@ -24,11 +24,11 @@ const Navbar = (props) => {
                 <i className={props.aboutIcon}/>
                 {props.aboutTitle}
             </Link>
-            <Link to={'/skills'}>
+            <Link to='/skills'>
                 <i className={props.skillsIcon}/>
                 {props.skillsTitle}
             </Link>
-             <Link to={'/contact'}>
+             <Link to='/contact'>
                 <i className={props.contactIcon}/>
                 {props.contactTitle}
             </Link>

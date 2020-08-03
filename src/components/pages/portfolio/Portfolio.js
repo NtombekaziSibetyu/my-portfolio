@@ -5,6 +5,7 @@ import img from './images/website.png';
 import img2 from './images/contact-keeper.png';
 import img3 from './images/it-logger.png';
 import img4 from './images/github.png'
+import img5 from './images/final.png'
 
 const Portfolio = () => {
     
@@ -66,19 +67,33 @@ const Portfolio = () => {
                         ></img>
                         <p>
                           A React log system App for technicians that enables adding 
-                          system logs, updating and deleting them.
-                          You can also add or delete the technicians 
-                        </p>
-                        <p><a href="https://github.com/NtombekaziSibetyu/IT-Logger" target='_blank'>
+                          system logs, updating and deleting them.And adding and deleting technicians.
+                          <br></br> 
+                          <a href="https://github.com/NtombekaziSibetyu/IT-Logger" target='_blank'>
                           GitHub</a>
                         </p>
+                        
                     </div>      
+                  </div>
+                  <div className='col-6'>
+                    <div className='card'>
+                    <h4> Booking  App</h4>
+                    <img className='card-img' 
+                          src={img5} alt='clinic-booker'
+                        ></img>
+                        <p>
+                          A React booking App for booking clinic visits,
+                           lets a user register and login to book the date and time,
+                           The user can also cancel an appointment
+                        </p>
+                        <p><a href="https://guarded-journey-59450.herokuapp.com/patient" target='_blank'>
+                          Link</a>
+                        </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className='final-project'>
-
-              </div>
+              
           </div>
   )
 }
