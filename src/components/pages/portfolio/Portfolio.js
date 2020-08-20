@@ -24,7 +24,7 @@ const Portfolio = () => {
                         <p>The app lets a user login and add a contact, view contacts, update and delete contacts</p>
                         <p>
                         <a href="https://github.com/NtombekaziSibetyu/Contact-Keeper"  
-                              target='_blank'>
+                              target='_blank' rel="noopener noreferrer">
                               GitHub  
                           </a>
                         </p>
@@ -39,7 +39,7 @@ const Portfolio = () => {
                              with an option to create a new profile
                           </p> 
                           <p><a href="https://github.com/NtombekaziSibetyu/webDesignProject"
-                            target='_blank' >GitHub</a>
+                            target='_blank' rel="noopener noreferrer">GitHub</a>
                           </p>
                       </div>                          
                     </div>
@@ -55,7 +55,8 @@ const Portfolio = () => {
                          A React App that enables a user to search for the github user
                           and get the github user by typing a name and get their profile information
                         </p>
-                        <p><a href='https://github.com/NtombekaziSibetyu/search-github-users' target='_blank'>
+                        <p><a href='https://github.com/NtombekaziSibetyu/search-github-users' 
+                        target='_blank' rel="noopener noreferrer">
                           GitHub</a></p>
                     </div>
                   </div>
@@ -69,13 +70,15 @@ const Portfolio = () => {
                           A React log system App for technicians that enables adding 
                           system logs, updating and deleting them.And adding and deleting technicians.
                           <br></br> 
-                          <a href="https://github.com/NtombekaziSibetyu/IT-Logger" target='_blank'>
+                          <a href="https://github.com/NtombekaziSibetyu/IT-Logger" 
+                          target='_blank' rel="noopener noreferrer">
                           GitHub</a>
-                        </p>
-                        
+                        </p>  
                     </div>      
                   </div>
-                  <div className='col-6'>
+                </div>
+                <div className="row">
+                <div className='col-6'>
                     <div className='card'>
                     <h4> Booking  App</h4>
                     <img className='card-img' 
@@ -86,7 +89,8 @@ const Portfolio = () => {
                            lets a user register and login to book the date and time,
                            The user can also cancel an appointment
                         </p>
-                        <p><a href="https://guarded-journey-59450.herokuapp.com/patient" target='_blank'>
+                        <p><a href="https://guarded-journey-59450.herokuapp.com/patient"
+                         target='_blank' rel="noopener noreferrer">
                           Link</a>
                         </p>
                     </div>
