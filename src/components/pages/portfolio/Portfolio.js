@@ -1,5 +1,4 @@
 import React from 'react';
-import ProgressBar from './ProgressBar';
 import './portfolio.css';
 import img from './images/website.png';
 import img2 from './images/contact-keeper.png';
@@ -78,7 +77,7 @@ const Portfolio = () => {
                   </div>
                 </div>
                 <div className="row">
-                <div className='col-6'>
+                <div className='col'>
                     <div className='card'>
                     <h4> Booking  App</h4>
                     <img className='card-img' 
@@ -86,10 +85,11 @@ const Portfolio = () => {
                         ></img>
                         <p>
                           A React booking App for booking clinic visits,
-                           lets a user register and login to book the date and time,
-                           The user can also cancel an appointment
+                          lets a user register and login to book the date and time,
+                          The user can also cancel an appointment
                         </p>
-                        <p><a href="https://guarded-journey-59450.herokuapp.com/patient"
+                        <p>
+                        <a href="https://guarded-journey-59450.herokuapp.com/patient"
                          target='_blank' rel="noopener noreferrer">
                           Link</a>
                         </p>
