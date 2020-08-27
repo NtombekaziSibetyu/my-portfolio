@@ -23,7 +23,7 @@ const Portfolio = () => {
                         <p>The app lets a user login and add a contact, view contacts, update and delete contacts</p>
                         <p>
                         <a href="https://github.com/NtombekaziSibetyu/Contact-Keeper"  
-                              target='_blank' rel="noopener noreferrer">
+                              target='_blank' >
                               GitHub  
                           </a>
                         </p>
@@ -38,7 +38,7 @@ const Portfolio = () => {
                              with an option to create a new profile
                           </p> 
                           <p><a href="https://github.com/NtombekaziSibetyu/webDesignProject"
-                            target='_blank' rel="noopener noreferrer">GitHub</a>
+                            target='_blank'>GitHub</a>
                           </p>
                       </div>                          
                     </div>
@@ -55,7 +55,7 @@ const Portfolio = () => {
                           and get the github user by typing a name and get their profile information
                         </p>
                         <p><a href='https://github.com/NtombekaziSibetyu/search-github-users' 
-                        target='_blank' rel="noopener noreferrer">
+                        target='_blank' >
                           GitHub</a></p>
                     </div>
                   </div>
@@ -67,10 +67,11 @@ const Portfolio = () => {
                         ></img>
                         <p>
                           A React log system App for technicians that enables adding 
-                          system logs, updating and deleting them.And adding and deleting technicians.
+                          system logs, updating and deleting them.The App also enables adding and deleting 
+                          technicians.
                           <br></br> 
                           <a href="https://github.com/NtombekaziSibetyu/IT-Logger" 
-                          target='_blank' rel="noopener noreferrer">
+                          target='_blank' >
                           GitHub</a>
                         </p>  
                     </div>      
@@ -89,8 +90,8 @@ const Portfolio = () => {
                           The user can also cancel an appointment
                         </p>
                         <p>
-                        <a href="https://guarded-journey-59450.herokuapp.com/patient"
-                         target='_blank' rel="noopener noreferrer">
+                        <a href="https://rocky-beyond-49433.herokuapp.com/"
+                         target='_blank' >
                           Link</a>
                         </p>
                     </div>
