@@ -70,9 +70,9 @@ const Portfolio = () => {
                           system logs, updating and deleting them.The App also enables adding and deleting 
                           technicians.
                           <br></br> 
-                          <a href="https://github.com/NtombekaziSibetyu/IT-Logger" 
+                          <a href="https://gracious-visvesvaraya-f4d7f5.netlify.app" 
                           target='_blank' >
-                          GitHub</a>
+                          Link</a>
                         </p>  
                     </div>      
                   </div>
