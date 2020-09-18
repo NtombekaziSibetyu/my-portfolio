@@ -16,11 +16,11 @@ const Navbar = (props) => {
     return (
         <div className="navbar" id='topNav'>
             <h3 className='myname'>Ntombekazi</h3> 
-            <Link to={'/'}>
+            <Link to='/'>
                 <i className={props.homeIcon}/>
                     {props.homeTitle}
             </Link>
-            <Link to={'/about'}>
+            <Link to='/about'>
                 <i className={props.aboutIcon}/>
                 {props.aboutTitle}
             </Link>

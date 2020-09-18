@@ -5,6 +5,7 @@ import img2 from './images/contact-keeper.png';
 import img3 from './images/it-logger.png';
 import img4 from './images/github.png'
 import img5 from './images/final.png'
+import img6 from './images/weather.png'
 
 const Portfolio = () => {
     
@@ -20,7 +21,7 @@ const Portfolio = () => {
                         <img className='card-img' 
                         src={img2} alt='contact-keeper'>
                         </img>
-                        <p>The app lets a user login and add a contact, view contacts, update and delete contacts</p>
+                        <p>The app lets a user login and add a contact, view contacts, update contacts and delete contacts</p>
                         <p>
                         <a href="https://github.com/NtombekaziSibetyu/Contact-Keeper"  
                               target='_blank' >
@@ -35,7 +36,7 @@ const Portfolio = () => {
                         <img className='card-img' 
                           src={img} alt='website'></img>
                           <p>A website that displays company employees profiles 
-                             with an option to create a new profile
+                            
                           </p> 
                           <p><a href="https://github.com/NtombekaziSibetyu/webDesignProject"
                             target='_blank'>GitHub</a>
@@ -52,7 +53,7 @@ const Portfolio = () => {
                         alt='gith-search'></img>
                         <p>
                          A React App that enables a user to search for the github user
-                          and get the github user by typing a name and get their profile information
+                          by typing a user name and in return get the profile information of the user 
                         </p>
                         <p><a href='https://github.com/NtombekaziSibetyu/search-github-users' 
                         target='_blank' >
@@ -78,7 +79,7 @@ const Portfolio = () => {
                   </div>
                 </div>
                 <div className="row">
-                <div className='col'>
+                  <div className='col-6'>
                     <div className='card'>
                     <h4> Booking  App</h4>
                     <img className='card-img' 
@@ -96,7 +97,25 @@ const Portfolio = () => {
                         </p>
                     </div>
                   </div>
+                  <div className="col-6">
+                  <div className="card">
+                  <h4> Weather Widget</h4>
+                  <img className='card-img' 
+                          src={img6} alt='weather widget'
+                        ></img>
+                        <p>
+                          A weather widget that shows the weather forecast at you current location for the
+                          current day and for thr next five days
+                        </p>
+                        <p>
+                        <a href="https://ntombekazi-weather-widget.netlify.app/"
+                         target='_blank' >
+                          Link</a>
+                        </p>
+                  </div>
                 </div>
+                </div>
+                
               </div>
               
           </div>

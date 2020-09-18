@@ -13,17 +13,17 @@ const Contact = (props) => {
           <div className='container'>
             <div className='row'>
                 <div className='col-3'>
-                <i class="fas fa-phone-square fa-5x far-center" style={{ color:'#1e88e5'}}></i>
+                <i className="fas fa-phone-square fa-5x far-center" style={{ color:'#1e88e5'}}></i>
                 <p>Call : {props.cellNo}</p>
                 </div>
                 <div className='col-3'>
                 <a href={props.github} target='_blank' className="">
-                  <i class="fab fa-github-square fa-5x fa-center"/></a>
+                  <i className="fab fa-github-square fa-5x fa-center"/></a>
                 <p>See more of my work on GitHub</p>
                 </div>
                 <div className='col-3'>
                 <a href={props.linkedin} target='_blank' className="">
-                <i class="fab fa-linkedin-in fa-5x fa-center" />
+                <i className="fab fa-linkedin-in fa-5x fa-center" />
                 </a>
                 <p>LinkedIn</p>
                 </div>
