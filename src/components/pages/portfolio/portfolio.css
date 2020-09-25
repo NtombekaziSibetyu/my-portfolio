@@ -24,7 +24,6 @@
     flex: 1;
     padding: 16px;
     width: 100%;
-    height: inherit;
     display: table-cell;
   }
 
@@ -33,7 +32,7 @@
     display: grid;
     width: 100%;
   }
-  .col-6 {
+.col-6 {
     float: right;
     display: block;
     width: 100%;

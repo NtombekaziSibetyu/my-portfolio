@@ -8,6 +8,7 @@
 }
 
 .container{
+    margin-top: 20px;
     padding: 10px;
     background-color: transparent;
     color:#FFFFFF;
@@ -35,7 +36,7 @@
     box-shadow: #00000F;
 }
 .round-img{
-    border-radius: 50%;
+    border-radius: 10%;
     border: solid #757575;
 }
 
@@ -50,6 +51,10 @@
     display: table-column;
     padding: 16px;
   }
+.col .card { 
+    background-color: #00897b ;
+    color: #FFFFFF;
+}
 
 .image{
     display: inline-table;
@@ -58,7 +63,8 @@
 }
 
 .card {
-    background-color: black;
+    background-color: #00bfa5 ;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 600px) {
