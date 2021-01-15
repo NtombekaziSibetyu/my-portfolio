@@ -1,9 +1,7 @@
 import React, { Fragment} from 'react';
 import './About.css';
 import PropTypes from 'prop-types';
-import mypic from './mypic.JPG'
-import ProgressBar from '../portfolio/ProgressBar';
-import Passion from './passion.js/passion'
+import mypic from './mypic.JPG';
 
 
  const About = (props) => {
@@ -46,7 +44,7 @@ import Passion from './passion.js/passion'
             </div>
             <div className='container'>
             
-            <ProgressBar/>
+
             <br></br>
             <h3><i className="fas fa-graduation-cap fa-2x" style={{color:'#1a237e'}}></i>
                 <strong>EDUCATION </strong></h3>

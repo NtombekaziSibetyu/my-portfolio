@@ -18,7 +18,7 @@ const Portfolio = () => {
                   <div className='card'>
                     <h4>Contact Keeper App</h4>
                     < a href='' target='_blank' rel="noopener noreferrer">   
-                    <img className='card-img' 
+                    <img className='project-img' 
                     src={img2} alt='contact-keeper'>
                     </img>
                     </a>
@@ -34,7 +34,7 @@ const Portfolio = () => {
                   
                   <div className='card'>
                     <h4>Company Employees Profiles website</h4>
-                    <img className='card-img' 
+                    <img className='project-img' 
                       src={img} alt='website'></img>
                       <p>A website that displays company employees profiles 
                         
@@ -47,7 +47,7 @@ const Portfolio = () => {
                   <div className='card'>
                     <h4>Github Searcher App</h4>
                     <a href='' target='_blank' rel="noopener noreferrer">
-                    <img className='card-img' 
+                    <img className='project-img' 
                     src={img4} 
                     alt='gith-search'></img>
                     </a>
@@ -65,7 +65,7 @@ const Portfolio = () => {
                     <h4> Log System App</h4>
                     <a href="https://gracious-visvesvaraya-f4d7f5.netlify.app" 
                         target='_blank' rel="noopener noreferrer" >
-                      <img className='card-img' 
+                      <img className='project-img' 
                         src={img3} alt='it-logger'></img>  </a>
                     
                       <p>
@@ -83,7 +83,7 @@ const Portfolio = () => {
                     <h4> Booking  App</h4>
                     <a href="https://rocky-beyond-49433.herokuapp.com/"
                          target='_blank'  rel="noopener noreferrer">
-                      <img className='card-img' 
+                      <img className='project-img' 
                           src={img5} alt='clinic-booker'
                         ></img>    
                     </a>
@@ -103,7 +103,7 @@ const Portfolio = () => {
                     <h4> Weather Widget</h4>
                     <a href="https://ntombekazi-weather-widget.netlify.app/"
                           target='_blank' rel="noopener noreferrer">
-                      <img className='card-img' 
+                      <img className='project-img' 
                             src={img6} alt='weather widget' 
                             href='https://ntombekazi-weather-widget.netlify.app/'
                       ></img>       

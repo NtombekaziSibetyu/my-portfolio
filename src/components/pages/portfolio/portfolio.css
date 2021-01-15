@@ -3,7 +3,11 @@
   padding: 30px ;
   opacity: 0.9;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0);
+  background-image: url(https://wallpapercave.com/wp/wp2993713.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  background-size: cover;
   color:#FFFFFF;
 }
 
@@ -57,7 +61,7 @@
   justify-content: center;
 }
 
-.card-img {
+.project-img{
     height: 200px;
     width: 430px;
 }   

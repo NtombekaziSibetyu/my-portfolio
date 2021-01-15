@@ -1,14 +1,35 @@
 .skill-bar{
- color: #FFFFFF;
+  height: 500px;
+  margin: 5px;
+  padding: 10px;
+ color: #000000;
 }
 .progress-bar {
     padding: 10px;
     height: 20px;
     width: 15px;
-    border-radius: 4px;
+    border-radius: 5px;
     align-content: center;
   }
  
+#html {
+  background-color: rgb(0, 195, 255);
+}
+#bootstrap {
+  background-color: rgb(7, 7, 139);
+}
+#css {
+  background-color: chartreuse;
+}
+#python {
+  background-color: rgb(223, 121, 25);
+}
+#js {
+  background-color: rgb(238, 178, 28);
+}
+#react {
+  background-color: aqua;
+}
 .col-6{
   display: table-cell;
 } 

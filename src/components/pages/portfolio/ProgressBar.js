@@ -32,7 +32,7 @@ class ProgressBar extends React.Component {
                 <div className='col-12'>
                     <h5>HTML5</h5>
                     <div className="progress">
-                    <div className="progress-bar" role="progressbar" 
+                    <div className="progress-bar" role="progressbar" id="html"
                     style={{ width: `${this.state.progress.html}%`}}  aria-valuenow={progress.css} aria-valuemin="0" 
                     aria-valuemax="100">{ this.state.progress.html + "%" }</div>
                     </div>
@@ -40,7 +40,7 @@ class ProgressBar extends React.Component {
                 <div className='col-12'>
                     <h5>CSS3</h5>
                     <div className="progress">
-                    <div className="progress-bar" role="progressbar" 
+                    <div className="progress-bar" role="progressbar" id="css"
                     style={{ width: `${this.state.progress.css}%`}} aria-valuenow={progress.css} aria-valuemin="0" 
                     aria-valuemax="100">{ this.state.progress.css + "%" }</div>
                     </div>
@@ -48,7 +48,7 @@ class ProgressBar extends React.Component {
                 <div className='col-12'>
                     <h5>Bootstrap</h5>
                     <div className="progress">
-                    <div className="progress-bar" role="progressbar" 
+                    <div className="progress-bar" role="progressbar" id="bootstrap"
                     style={{ width: `${this.state.progress.bootstrap}%`}} aria-valuenow={progress.bootstrap} aria-valuemin="0" 
                     aria-valuemax="100">{ this.state.progress.bootstrap + "%" }</div>
                     </div>
@@ -57,7 +57,7 @@ class ProgressBar extends React.Component {
                 <div className='col-12'>
                     <h5>Python</h5>
                     <div className="progress">
-                    <div className="progress-bar" role="progressbar" 
+                    <div className="progress-bar" role="progressbar" id="python"
                     style={{ width: `${this.state.progress.python}%`}} aria-valuenow={progress.python} aria-valuemin="0" 
                     aria-valuemax="100">{ this.state.progress.python + "%" }</div>
                     </div>
@@ -65,7 +65,7 @@ class ProgressBar extends React.Component {
                 <div className='col-12'>
                     <h5>MySQL</h5>
                     <div className="progress">
-                    <div className="progress-bar" role="progressbar" 
+                    <div className="progress-bar" role="progressbar" id="mysql"
                     style={{ width: `${this.state.progress.mysql}%`}} aria-valuenow={progress.mysql} aria-valuemin="0" 
                     aria-valuemax="100">{ this.state.progress.mysql + "%" }</div>
                     </div>
@@ -73,7 +73,7 @@ class ProgressBar extends React.Component {
                 <div className='col-12'>
                     <h5>JavaScript</h5>
                     <div className="progress">
-                    <div className="progress-bar" role="progressbar" 
+                    <div className="progress-bar" role="progressbar" id="js"
                     style={{ width: `${this.state.progress.js}%`}} aria-valuenow={progress.js} aria-valuemin="0" 
                     aria-valuemax="100">{ this.state.progress.js + "%" }</div>
                     </div>
@@ -81,7 +81,7 @@ class ProgressBar extends React.Component {
                 <div className='col-12'>
                     <h5>React</h5>
                     <div className="progress">
-                    <div className="progress-bar" role="progressbar" 
+                    <div className="progress-bar" role="progressbar" id="react"
                     style={{ width: `${this.state.progress.react}%`}} aria-valuenow={progress.react} aria-valuemin="0" 
                     aria-valuemax="100">{ this.state.progress.react + "%" }</div>
                     </div>
