@@ -17,54 +17,44 @@ export default class ContactForm extends React.Component {
         action="https://formspree.io/xleppnqw"
         method="POST"
       >
-      <div className="form-group">
-      <h4>Send an email</h4>
+      <div className="form-content">
+        <h4 className="form-header">Send an email</h4>
+          <div className="form-group">
+            <label>Name  : </label>
+            <input
+              type="text"
+              name="name"
+              className="form-control form-control-lg"
+              id="name"
+              placeholder="Name"
+            />
+          </div>
+          <div className="form-group">
+          <label>Email : </label>  
+            <input
+              type="email"
+              name="_replyto"
+              className="form-control form-control-lg"
+              id="exampleFormControlInput1"
+              placeholder="Your email"
+            />
+          </div> 
 
-            <div className="row">
-              <div className="col-12 col-sm-12 col-md-6 mx-auto">
-              <label>Name  : </label>
-                <input
-                  type="text"
-                  name="name"
-                  className="form-control form-control-lg"
-                  id="name"
-                  placeholder="Name"
-                />
-              </div>
+          <div className="form-group">
+            <textarea
+                name="message"
+                className="form-control form-control-lg"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Write your message..."
+              />
             </div>
-          </div>
-          <div className="form-group hidden">
-            <div className="row">
-              <div className="col-12 col-sm-12 col-md-6 mx-auto">
-              <label>Email : </label>  
-                <input
-                  type="email"
-                  name="_replyto"
-                  className="form-control form-control-lg"
-                  id="exampleFormControlInput1"
-                  placeholder="Your email"
-                />
-              </div>
-            </div>
-          </div>
-          <div className='form-group hiddenRight'>
-            <div className='row'>
-               <div className='col-12 col-sm-12 col-md-6 mx-auto'>
-               <textarea
-                  name="message"
-                  className="form-control form-control-lg"
-                  id="exampleFormControlTextarea1"
-                  rows="3"
-                  placeholder="Write your message..."
-                />
-                <div>
-                {status === "SUCCESS" ? <p>Email sent. Thanks!</p> : <button className='form-button'>Send</button>}
-                {status === "ERROR" && <p>Ooops! There was an error.</p>}
-                </div>
-               </div>
-            </div>
-          </div>
-        
+            
+        </div>
+        <div className="form-group">
+          {status === "SUCCESS" ? <p>Email sent. Thanks!</p> : <button className='form-button'>Send</button>}
+          {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        </div>
       </form>
     );
   }
