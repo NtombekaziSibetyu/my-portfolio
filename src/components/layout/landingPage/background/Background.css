@@ -52,17 +52,20 @@
   }
 
 .block {
-  color:#00000F;
-  opacity: 0.9;
+  color:#efeff1;
+  background: black;
+  opacity: 0.4;
   padding: 7px;
-  padding-top: 100px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 3%;
+  border-radius: 10px;
 }
 .card-text {
-  color: #00000F;
+  margin: 10px;
+  color: #ffffff;
   font-size: 20px;
   font: caption;
 }
