@@ -9,20 +9,22 @@
     margin: 0px;
     padding: 20px;
     display: flex;
-
     width: 100%;
-    background: url(https://inspirationfeed.com/wp-content/uploads/2019/06/daniel-filipe-antunes-santos-1206233-unsplash-800x533.jpg);
+    background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8IDQ0NFREWFhURFRUYHSggGBoxGxMVITEhJSkrOi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDysZFRkrNystLSsrLSsrKystKy0tLSstLS0rKystLSsrKysrLSsrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/APV1RXJ0FSKqAAAAAAgAKAoiAAAAACiKAgoIAAAChhigyoIIjTNRWQAaUVQAVAAAABUUQAFAARQAwWAIACKAIuACLQBBcQFARRFQESqlBkBBtUixQAVAAAAFEUAUAAUAAAEBFAQUBFBFAAEVAAAAQBlagMiog01EFFAVAAQAFFBQVFACAAAACKACACKigAAAgAAAgqAiVpmgyKINCDQ0IqoAAAoAAAAKgAAAoggKgC1AAoCKqCggAAACAAzVqUGdAQaAaSqqKoAAqAAogKIAoAAAKACFEQURdARaIAAoAAigIi0BEq4zQQEQbgooKCoAKAAAAAACooAAKioAiogCKAGKAgqKAAAAgqAM1pmgyAg2qKoANIAAAgAKCKAKIoKgAAAgIAqCCgAAgaqsqgoaCiVQGUq1KDICDoIqgA0gIAAAogCgAAAokAVFQBAAABRFRBFQAAVVQBQEVmpWmaDICDoAoAjSAVAUAAAFEAUACAAqACAAAAAIgACoAAANCRUaRmtVmgyiog6ANQAFRAAAAUAAAAABUUAQAKICgAAIAIIoigAAKgKJRKlVEBB0AaiCAoAAAAoAAAAAAAAAAAAAAACACgIAAgACJQStMgIP/9k=);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 1;
-    color: #fff4f4;
+    color: #000000;
 }
 .edu-container{
     margin: 0;
     padding: 30px;
-    background: rgb(2,0,36);
-    background: linear-gradient(171deg, rgba(2,0,36,1) 0%, rgba(8,8,65,1) 33%, rgba(0,212,255,1) 100%);
-    color: white;
+    background: url(https://envato-shoebox-0.imgix.net/3029/37be-d6ae-43ab-9b4b-dbda8e32f0a5/571A7607.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=ec61b8b97597bec8571882dc55830e55);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    color: rgb(0, 0, 0);
 }
 .header-text{
     margin: 30px;

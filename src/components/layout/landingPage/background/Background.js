@@ -12,8 +12,8 @@ const Background = ({ text }) => {
             <ReactTypingEffect
             className='typewriter h1'  speed='100' eraseDelay='80' typingDelay='120' cursor='|'
             text={text} />
-            <p className='card-text card-text-center' >Aspiring Web Developer</p>
-            <p className='card-text'>HTML\ CSS | Bootstrap | JavaScript | React | Python | MySQL </p>
+            
+            <p className='card-text card-text-center'>HTML5\ CSS | Bootstrap | JavaScript | React | Python | MySQL | VueJS</p>
             </div>  
 
     </div>
@@ -21,7 +21,7 @@ const Background = ({ text }) => {
 }
 
 Background.defaultProps = {
-    text: ['HELLO', 'WELCOME',' TO MY PORTFOLIO']
+    text: ['Aspiring Web Developer']
 }
 Background.propTypes = {
     text: PropTypes.array.isRequired

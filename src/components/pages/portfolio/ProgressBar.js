@@ -11,8 +11,9 @@ class ProgressBar extends React.Component {
             bootstrap: '60',
             python:'80',
             mysql:'90',
-            js:'60',
-            react:'50'
+            js:'70',
+            react:'60',
+            vue: '60'
         }
       };
     }
@@ -26,8 +27,8 @@ class ProgressBar extends React.Component {
           <h3> 
             <i className="fas fa-pen" style={{color:'#03a9f4'}} ></i>
              <strong> MY SKILLS </strong>  </h3>
-          <p>These are the languages that I have learned and  
-            use to create my projects : </p>
+          <h4>These are the skills that I have learned and  
+            use to create my projects : </h4>
             <div className='row'>
                 <div className='col-12'>
                     <h5>HTML5</h5>
@@ -83,6 +84,14 @@ class ProgressBar extends React.Component {
                     <div className="progress">
                     <div className="progress-bar" role="progressbar" id="react"
                     style={{ width: `${this.state.progress.react}%`}} aria-valuenow={progress.react} aria-valuemin="0" 
+                    aria-valuemax="100">{ this.state.progress.react + "%" }</div>
+                    </div>
+                </div>
+                <div className='col-12'>
+                    <h5>VueJS</h5>
+                    <div className="progress">
+                    <div className="progress-bar" role="progressbar" id="vue"
+                    style={{ width: `${this.state.progress.vue}%`}} aria-valuenow={progress.vue} aria-valuemin="0" 
                     aria-valuemax="100">{ this.state.progress.react + "%" }</div>
                     </div>
                 </div>

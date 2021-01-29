@@ -7,6 +7,7 @@ import ProgressBar from './components/pages/portfolio/ProgressBar'
 import Contact from './components/pages/contact/Contact';
 import Portfolio from './components/pages/portfolio/Portfolio';
 import Testimonials from './components/pages/about/tesitmonies/Testimonials'
+import Footer from './components/layout/footer/Footer'
 
 const App = () => {
 
@@ -16,10 +17,11 @@ const App = () => {
           <Navbar/>
           <Home/>
           <About/>
+          <Testimonials/>
           <ProgressBar/>
           <Portfolio/>
-          <Testimonials/>
           <Contact/>
+          <Footer/>
         </Fragment>
       </Router>
       
