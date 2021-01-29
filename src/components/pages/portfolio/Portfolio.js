@@ -62,7 +62,7 @@ const Portfolio = () => {
                   <div className="card-container">
                     <div className='card'>
                       <div className="front">
-                        <a href='https://github.com/NtombekaziSibetyu/search-github-users' target='_blank' rel="noopener noreferrer">
+                        <a href='https://awesome-kilby-c8de8a.netlify.app' target='_blank' rel="noopener noreferrer">
                         <img className='project-img' 
                         src={img4} 
                         alt='gith-search'></img>

@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <div class="container-fluid text-center" id="footer-below">
             <p>Ntombekazi ©
-            <script>document.write(new Date().getFullYear())</script>
+           2020
             . All Rights Reserved</p>
             
             </div>
