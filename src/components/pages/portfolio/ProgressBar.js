@@ -25,7 +25,6 @@ class ProgressBar extends React.Component {
         return (
         <div className='skill-bar'>
           <h3> 
-            <i className="fas fa-pen" style={{color:'#03a9f4'}} ></i>
              <strong> MY SKILLS </strong>  </h3>
           <h4>These are the skills that I have learned and  
             use to create my projects : </h4>
