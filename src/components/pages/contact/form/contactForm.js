@@ -20,7 +20,7 @@ export default class ContactForm extends React.Component {
       <div className="form-content">
         <h4 className="form-header">Send an email</h4>
           <div className="form-group">
-            <label>Name  : </label>
+            <label>Name   </label>
             <input
               type="text"
               name="name"
@@ -30,7 +30,7 @@ export default class ContactForm extends React.Component {
             />
           </div>
           <div className="form-group">
-          <label>Email : </label>  
+          <label>Email  </label>  
             <input
               type="email"
               name="_replyto"

@@ -11,7 +11,7 @@ const Navbar = () => {
             </button>
             <div class="collapse navbar-collapse" id="main_nav">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active"> <a class="nav-link" href="/">Home </a> </li>
+                    <li class="nav-item active"><a class="nav-link" href="/">Home </a> </li>
                     <li class="nav-item"><a class="nav-link" href="/about"> About </a></li>
                     <li class="nav-item"><a class="nav-link" href="/testimonials"> Testimonials </a></li>
                     <li class="nav-item"><a class="nav-link" href="/portfolio"> Portfolio </a></li>
