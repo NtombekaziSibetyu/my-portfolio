@@ -29,10 +29,10 @@ const Portfolio = () => {
 
                         <p>The app lets a user login and add a contact, view contacts, update contacts and delete contacts</p>
                         <p>
-                          <h4>React</h4>
+                         <h4>React</h4>
                         <a href="https://github.com/NtombekaziSibetyu/Contact-Keeper"  
                               target='_blank' rel="noopener noreferrer" >
-                              GitHub  
+                              GitHub Link 
                           </a>
                         </p>
                       </div>
@@ -53,7 +53,7 @@ const Portfolio = () => {
 
                         <p>A website that displays company employees profiles </p> 
                           <p><a href="https://github.com/NtombekaziSibetyu/webDesignProject"
-                            target='_blank' rel="noopener noreferrer">GitHub</a>
+                            target='_blank' rel="noopener noreferrer">GitHub Link</a>
                           </p>
                       </div>
                     </div>
@@ -76,7 +76,7 @@ const Portfolio = () => {
                         </p>
                         <p><a href='https://github.com/NtombekaziSibetyu/search-github-users' 
                         target='_blank' rel="noopener noreferrer">
-                          GitHub</a></p>
+                         GitHub Link</a></p>
                       </div>
                     </div>
                   </div>
@@ -98,7 +98,7 @@ const Portfolio = () => {
                             <br></br> 
                             <a href='https://github.com/NtombekaziSibetyu/IT-Logger'
                             target='_blank'
-                            rel="noopener noreferrer">GitHub</a>
+                            rel="noopener noreferrer">GitHub Link</a>
                           </p>  
                       </div>
                     </div>
@@ -123,7 +123,7 @@ const Portfolio = () => {
                         </p>
                         <p>
                         <a href='https://github.com/NtombekaziSibetyu/final-project' 
-                        target='_blank' rel="noopener noreferrer">GitHub</a>
+                        target='_blank' rel="noopener noreferrer">GitHub Link</a>
                         </p>
                       </div>
                     </div>
@@ -148,7 +148,7 @@ const Portfolio = () => {
                         </p>
                         <p>
                         <a href='https://github.com/NtombekaziSibetyu/weather-widget'
-                        target='_blank' rel="noopener noreferrer">GitHub</a>
+                        target='_blank' rel="noopener noreferrer">GitHub Link</a>
                         </p>
                       </div>
                       

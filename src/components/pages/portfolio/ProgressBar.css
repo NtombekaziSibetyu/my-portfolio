@@ -18,22 +18,22 @@
   background-color: rgb(26, 195, 247);
 }
 #bootstrap {
-  background-color: rgb(77, 12, 107);
+  background-color: rgb(38, 2, 54);
 }
 #css {
-  background-color: chartreuse;
+  background-color: rgb(80, 4, 76);
 }
 #python {
-  background-color: rgb(223, 121, 25);
+  background-color: rgb(192, 189, 4);
 }
 #js {
-  background-color: rgb(253, 184, 10);
+  background-color: rgb(216, 119, 9);
 }
 #react {
-  background-color: aqua;
+  background-color: rgb(4, 92, 92);
 }
 #vue {
-  background-color: rgb(3, 204, 87);
+  background-color: rgb(0, 87, 36);
 }
 .col-6{
   display: table-cell;

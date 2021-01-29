@@ -79,6 +79,7 @@
   transform: rotateY( 180deg);
   z-index: 3;
   margin: 0 auto;
+  padding: 20px;
   height: 300px;
   border-radius: 5%;
 }
@@ -104,7 +105,6 @@
   background-color: transparent;
   color: #FFFFFF;
   flex: 1% 1% 40%;
-  border: solid #c7c2c2;
   border-radius: 5%;
   justify-content: center;
 }
