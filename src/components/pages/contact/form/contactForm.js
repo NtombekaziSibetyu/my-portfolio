@@ -44,12 +44,11 @@ export default class ContactForm extends React.Component {
                   name="message"
                   className="form-control form-control-lg"
                   id="exampleFormControlTextarea1"
-                  rows="3"
+                  rows="4"
                   placeholder="Write your message..."
                 />
             </div>
           </div>
-            
         </div>
         <div className="form-group">
           {status === "SUCCESS" ? <p>Email sent. Thanks!</p> : <button className='form-button'>Send</button>}

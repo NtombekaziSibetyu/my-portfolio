@@ -32,7 +32,7 @@ class ProgressBar extends React.Component {
             use to create my projects : </h4>
             <div className='row'>
                 <div className='col-12'>
-                    <h4> <i class="fab fa-html5 " aria-hidden="true"></i> HTML5</h4>
+                    <h4>  HTML5</h4>
                     <div className="progress">
                       <div className="progress-bar" role="progressbar" id="html"
                         style={{ width: `${this.state.progress.html}%`}}  aria-valuenow={progress.css} aria-valuemin="0" 
@@ -42,7 +42,7 @@ class ProgressBar extends React.Component {
                     </div>
                 </div>
                 <div className='col-12'>
-                    <h5><i class="fab fa-css3" aria-hidden="true"></i> CSS3</h5>
+                    <h5>CSS3</h5>
                     <div className="progress">
                       <div className="progress-bar" role="progressbar" id="css"
                         style={{ width: `${this.state.progress.css}%`}} aria-valuenow={progress.css} aria-valuemin="0" 
@@ -98,6 +98,7 @@ class ProgressBar extends React.Component {
                     aria-valuemax="100">{ this.state.progress.react + "%" }</div>
                     </div>
                 </div>
+                
             </div>
         </div>
           )
