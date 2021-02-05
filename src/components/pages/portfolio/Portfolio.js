@@ -4,7 +4,7 @@ import img from './images/website.png';
 import img2 from './images/contact-keeper.png';
 import img3 from './images/it-logger.png';
 import img4 from './images/github.png'
-import img5 from './images/final.png'
+import img5 from './images/vue-contact-keeper.png'
 import img6 from './images/weather.png'
 
 const Portfolio = () => {
@@ -18,7 +18,7 @@ const Portfolio = () => {
                   <div className="card-container">
                     <div className='card'>
                       <div className="front">
-                        < a href='https://github.com/NtombekaziSibetyu/Contact-Keeper' target='_blank' rel="noopener noreferrer">   
+                        < a href='https://nameless-shore-47202.herokuapp.com/' target='_blank' rel="noopener noreferrer">   
                         <img className='project-img' 
                         src={img2} alt='contact-keeper'>
                         </img>
@@ -34,6 +34,10 @@ const Portfolio = () => {
                               target='_blank' rel="noopener noreferrer" >
                               GitHub Link 
                           </a>
+                          <a href="https://nameless-shore-47202.herokuapp.com/"  
+                              target='_blank' rel="noopener noreferrer" >
+                              Live Link 
+                          </a>
                         </p>
                       </div>
                     </div> 
@@ -42,88 +46,25 @@ const Portfolio = () => {
                   <div className="card-container">
                     <div className='card'>
                       <div className="front">
-                        <a href="https://github.com/NtombekaziSibetyu/webDesignProject"  target='_blank' rel="noopener noreferrer">
-                        <img className='project-img' 
-                          src={img} alt='website'></img>
-                        </a>
-                       
-                      </div>
-                      <div className="back">
-                        <h4>Company Employees Profiles website</h4>
-
-                        <p>A website that displays company employees profiles </p> 
-                          <p><a href="https://github.com/NtombekaziSibetyu/webDesignProject"
-                            target='_blank' rel="noopener noreferrer">GitHub Link</a>
-                          </p>
-                      </div>
-                    </div>
-                  </div>
-                 
-                  <div className="card-container">
-                    <div className='card'>
-                      <div className="front">
-                        <a href='https://awesome-kilby-c8de8a.netlify.app' target='_blank' rel="noopener noreferrer">
-                        <img className='project-img' 
-                        src={img4} 
-                        alt='gith-search'></img>
-                        </a>
-                      </div>
-                      <div className="back">
-                      <h4>Github Searcher App</h4>
-                      <p>
-                          A React App that enables a user to search for the github user
-                          by typing a user name and in return get the profile information of the user 
-                        </p>
-                        <p><a href='https://github.com/NtombekaziSibetyu/search-github-users' 
-                        target='_blank' rel="noopener noreferrer">
-                         GitHub Link</a></p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="card-container">
-                    <div className='card'>
-                      <div className="front">
-                        <a href="https://gracious-visvesvaraya-f4d7f5.netlify.app" 
-                            target='_blank' rel="noopener noreferrer" >
-                          <img className='project-img' 
-                            src={img3} alt='it-logger'></img>  </a>
-                      </div>
-                      <div className="back">
-                      <h4> Log System App</h4>
-                        <p>
-                            A React log system App for technicians that enables adding 
-                            system logs, updating and deleting them.The App also enables adding and deleting 
-                            technicians.
-                            <br></br> 
-                            <a href='https://github.com/NtombekaziSibetyu/IT-Logger'
-                            target='_blank'
-                            rel="noopener noreferrer">GitHub Link</a>
-                          </p>  
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="card-container">
-                    <div className='card'>
-                      <div className="front">
-                        <a href="https://rocky-beyond-49433.herokuapp.com/"
+                        <a href="https://contact-keeper-27934.web.app/"
                             target='_blank'  rel="noopener noreferrer">
                           <img className='project-img' 
-                              src={img5} alt='clinic-booker'
+                              src={img5} alt='vue contact keeper'
                             ></img>    
                         </a>
                       </div>
                       <div className="back">
-                      <h4> Booking  App</h4>
+                      <h4> Vue Web  App</h4>
                         <p>
-                          A React booking App for booking clinic visits,
-                          lets a user register and login to book the date and time,
-                          The user can also cancel an appointment
+                          A vue web App for saving a users contacts
                         </p>
                         <p>
-                        <a href='https://github.com/NtombekaziSibetyu/final-project' 
+                        <a href='https://github.com/NtombekaziSibetyu/vue-contactKeeper' 
                         target='_blank' rel="noopener noreferrer">GitHub Link</a>
+                        </p>
+                        <p>
+                        <a href='https://contact-keeper-27934.web.app/' 
+                        target='_blank' rel="noopener noreferrer">Live Link</a>
                         </p>
                       </div>
                     </div>
@@ -151,7 +92,80 @@ const Portfolio = () => {
                         target='_blank' rel="noopener noreferrer">GitHub Link</a>
                         </p>
                       </div>
-                      
+                    </div>
+                  </div>
+                 
+                  <div className="card-container">
+                    <div className='card'>
+                      <div className="front">
+                        <a href='https://awesome-kilby-c8de8a.netlify.app' target='_blank' rel="noopener noreferrer">
+                        <img className='project-img' 
+                        src={img4} 
+                        alt='gith-search'></img>
+                        </a>
+                      </div>
+                      <div className="back">
+                      <h4>Github Searcher App</h4>
+                      <p>
+                          A React App that enables a user to search for the github user
+                          by typing a user name and in return get the profile information of the user 
+                        </p>
+                        <p><a href='https://github.com/NtombekaziSibetyu/search-github-users' 
+                        target='_blank' rel="noopener noreferrer">
+                         GitHub Link</a></p>
+                         <p><a href='https://react-github-user-finder.netlify.app/' 
+                        target='_blank' rel="noopener noreferrer">
+                         Live Link</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="card-container">
+                    <div className='card'>
+                      <div className="front">
+                        <a href="https://laughing-bardeen-23629b.netlify.app" 
+                            target='_blank' rel="noopener noreferrer" >
+                          <img className='project-img' 
+                            src={img3} alt='it-logger'></img>  </a>
+                      </div>
+                      <div className="back">
+                      <h4> Log System App</h4>
+                        <p>
+                            A React log system App for technicians that enables adding 
+                            system logs, updating and deleting them.The App also enables adding and deleting 
+                            technicians.
+                            <br></br> 
+                            <a href='https://github.com/NtombekaziSibetyu/IT-Logger'
+                            target='_blank'
+                            rel="noopener noreferrer">GitHub Link</a>
+                            <a href='https://github.com/NtombekaziSibetyu/IT-Logger'
+                            target='_blank'
+                            rel="noopener noreferrer">Live Link</a>
+                          </p>  
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="card-container">
+                    <div className='card'>
+                      <div className="front">
+                        <a href="https://github.com/NtombekaziSibetyu/webDesignProject"  target='_blank' rel="noopener noreferrer">
+                        <img className='project-img' 
+                          src={img} alt='website'></img>
+                        </a>
+                       
+                      </div>
+                      <div className="back">
+                        <h4>Company Employees Profiles website</h4>
+
+                        <p>A website that displays company employees profiles </p> 
+                          <p><a href="https://github.com/NtombekaziSibetyu/webDesignProject"
+                            target='_blank' rel="noopener noreferrer">GitHub Link</a>
+                          </p>
+                          <p><a href="https://github.com/NtombekaziSibetyu/webDesignProject"
+                            target='_blank' rel="noopener noreferrer">Live Link</a>
+                          </p>
+                      </div>
                     </div>
                   </div>
                   
