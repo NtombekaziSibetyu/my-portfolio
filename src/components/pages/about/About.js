@@ -6,7 +6,7 @@ import mypic from './mypic.JPG';
  const About = (props) => {
 
     return (
-        <div className='info-container'>
+        <div className='info-container' id="about">
             <div className="about-header">
                 <img src={mypic}  className='round-img' alt="profile" 
                     style={{width:'250px',height:'280px'}}/>  

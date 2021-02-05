@@ -12,11 +12,11 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="main_nav">
                 <ul className="navbar-nav mx-auto">
-                    <li className="nav-item active"><a className="nav-link" href="/" data-id="home">Home </a> </li>
-                    <li className="nav-item"><a className="nav-link" href="/about"  data-id="about"> About </a></li>
+                    <li className="nav-item active"><a className="nav-link" href="/" data-target="#home">Home </a> </li>
+                    <li className="nav-item"><a className="nav-link" href="#about"  data-target="#about"> About </a></li>
                     <li className="nav-item"><a className="nav-link" href="/testimonials" data-id="testimonials"> Testimonials </a></li>
                     <li className="nav-item"><a className="nav-link" href="/portfolio" data-id="porfolio"> Portfolio </a></li>
-                    <li className="nav-item"><a className="nav-link" href="/contact" data-id="contact"> Contact </a></li>
+                    <li className="nav-item"><a className="nav-link" href="#contact" data-id="contact"> Contact </a></li>
                 </ul>
             </div> 
         </nav>
