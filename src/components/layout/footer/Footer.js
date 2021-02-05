@@ -7,8 +7,8 @@ const Footer = () => {
             <div class="footer">
             <ul class="social-network social-circle">
             <li><a class="icoGithub" href="https://github.com/NtombekaziSibetyu" title="Github"><i class="fab fa-github"></i></a></li>
-            <li><a class="icoLinkedin" href="https://www.linkedin.com/in/NtombekaziSibetyu" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
-            <li><a class="icoCodepen" href="https://www.codepen.com/profile/NtombekaziSibetyu" title="Quora"><i class="fab fa-codepen"></i></a></li>
+            <li><a class="icoLinkedin" href="https://www.linkedin.com/in/ntombekazi-sibetyu-21a353164 " title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+            <li><a class="icoCodepen" href="https://www.codepen.com/profile/NtombekaziSibetyu" title="CodePen"><i class="fab fa-codepen"></i></a></li>
             <li><a class="icoTwitter" href="https://twitter.com/" title="Twitter"><i class="fab fa-twitter"></i></a></li>
             
             

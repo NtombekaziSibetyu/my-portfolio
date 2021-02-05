@@ -13,7 +13,9 @@ class ProgressBar extends React.Component {
             mysql:'90',
             js:'70',
             react:'60',
-            vue: '60'
+            nodejs : "",
+            vue: '60',
+            vuetify : "70"
         }
       };
     }
@@ -30,21 +32,23 @@ class ProgressBar extends React.Component {
             use to create my projects : </h4>
             <div className='row'>
                 <div className='col-12'>
-                    <h5>HTML5</h5>
+                    <h4> <i class="fab fa-html5 " aria-hidden="true"></i> HTML5</h4>
                     <div className="progress">
-                    <div className="progress-bar" role="progressbar" id="html"
-                    style={{ width: `${this.state.progress.html}%`}}  aria-valuenow={progress.css} aria-valuemin="0" 
-                    aria-valuemax="100">{ this.state.progress.html + "%" }</div>
+                      <div className="progress-bar" role="progressbar" id="html"
+                        style={{ width: `${this.state.progress.html}%`}}  aria-valuenow={progress.css} aria-valuemin="0" 
+                        aria-valuemax="100">
+                        { this.state.progress.html + "%" }
+                      </div>
                     </div>
                 </div>
                 <div className='col-12'>
-                    <h5>CSS3</h5>
+                    <h5><i class="fab fa-css3" aria-hidden="true"></i> CSS3</h5>
                     <div className="progress">
-                    <div className="progress-bar" role="progressbar" id="css"
-                    style={{ width: `${this.state.progress.css}%`}} aria-valuenow={progress.css} aria-valuemin="0" 
-                    aria-valuemax="100">{ this.state.progress.css + "%" }</div>
+                      <div className="progress-bar" role="progressbar" id="css"
+                        style={{ width: `${this.state.progress.css}%`}} aria-valuenow={progress.css} aria-valuemin="0" 
+                        aria-valuemax="100">{ this.state.progress.css + "%" }</div>
+                      </div>
                     </div>
-                </div>
                 <div className='col-12'>
                     <h5>Bootstrap</h5>
                     <div className="progress">

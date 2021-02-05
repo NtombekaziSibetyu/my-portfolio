@@ -10,10 +10,10 @@ import img6 from './images/weather.png'
 const Portfolio = () => {
     
     return (
-        <div className='portfolio-content' >
+        <div className='portfolio-content' id="portfolio" >
             
             <div>
-              <h2>My Projects</h2>
+              <h2>My Projects <i class="fa fa-code " aria-hidden="true"></i></h2>
                 <div className="cards">
                   <div className="card-container">
                     <div className='card'>
@@ -27,13 +27,14 @@ const Portfolio = () => {
                       <div className="back">
                         <h4>Contact Keeper App</h4>
 
-                        <p>The app lets a user login and add a contact, view contacts, update contacts and delete contacts</p>
+                        <p>The app lets a user login and add a contact, view contacts, update contacts and delete contacts
+
+                        </p>
                         <p>
-                         <h4>React</h4>
+                         <h5>React | JavaScript | Nodejs</h5>
                         <a href="https://github.com/NtombekaziSibetyu/Contact-Keeper"  
-                              target='_blank' rel="noopener noreferrer" >
-                              GitHub Link 
-                          </a>
+                              target='_blank' rel="noopener noreferrer" ><i class="fab fa-github" aria-hidden="true"></i>
+                          </a> | 
                           <a href="https://nameless-shore-47202.herokuapp.com/"  
                               target='_blank' rel="noopener noreferrer" >
                               Live Link 
@@ -56,16 +57,17 @@ const Portfolio = () => {
                       <div className="back">
                       <h4> Vue Web  App</h4>
                         <p>
-                          A vue web App for saving a users contacts
+                          A vue web App for keeping contacts. User can save, edit and delete contact
                         </p>
+                        <p>Vue | Vuetify | CSS </p>
                         <p>
                         <a href='https://github.com/NtombekaziSibetyu/vue-contactKeeper' 
-                        target='_blank' rel="noopener noreferrer">GitHub Link</a>
-                        </p>
-                        <p>
-                        <a href='https://contact-keeper-27934.web.app/' 
+                        target='_blank' rel="noopener noreferrer">
+                         <i class="fab fa-github" aria-hidden="true"></i></a> |
+                         <a href='https://contact-keeper-27934.web.app/' 
                         target='_blank' rel="noopener noreferrer">Live Link</a>
                         </p>
+                        
                       </div>
                     </div>
                   </div>
@@ -77,7 +79,6 @@ const Portfolio = () => {
                               target='_blank' rel="noopener noreferrer">
                           <img className='project-img' 
                                 src={img6} alt='weather widget' 
-                                href='https://ntombekazi-weather-widget.netlify.app/'
                           ></img>       
                         </a>
                       </div>
@@ -87,9 +88,14 @@ const Portfolio = () => {
                           A weather widget that shows the weather forecast at you current location for the
                           current day and for thr next five days
                         </p>
+                        <p>HTML | JavaScript | CSS3</p>
                         <p>
                         <a href='https://github.com/NtombekaziSibetyu/weather-widget'
-                        target='_blank' rel="noopener noreferrer">GitHub Link</a>
+                        target='_blank' rel="noopener noreferrer">
+                          <i class="fab fa-github" aria-hidden="true"></i>
+                          </a> | 
+                        <a href='https://ntombekazi-weather-widget.netlify.app/'
+                        target='_blank' rel="noopener noreferrer">Live Link</a>
                         </p>
                       </div>
                     </div>
@@ -110,12 +116,13 @@ const Portfolio = () => {
                           A React App that enables a user to search for the github user
                           by typing a user name and in return get the profile information of the user 
                         </p>
+                        <p>React | JavaScript | Nodejs</p>
                         <p><a href='https://github.com/NtombekaziSibetyu/search-github-users' 
                         target='_blank' rel="noopener noreferrer">
-                         GitHub Link</a></p>
-                         <p><a href='https://react-github-user-finder.netlify.app/' 
+                         <i class="fab fa-github" aria-hidden="true"></i>
+                         </a>  |  <a href='https://react-github-user-finder.netlify.app/' 
                         target='_blank' rel="noopener noreferrer">
-                         Live Link</a></p>
+                         Live Link</a></p> 
                       </div>
                     </div>
                   </div>
@@ -137,7 +144,9 @@ const Portfolio = () => {
                             <br></br> 
                             <a href='https://github.com/NtombekaziSibetyu/IT-Logger'
                             target='_blank'
-                            rel="noopener noreferrer">GitHub Link</a>
+                            rel="noopener noreferrer">
+                              <i class="fab fa-github" aria-hidden="true"></i>
+                              </a> | 
                             <a href='https://github.com/NtombekaziSibetyu/IT-Logger'
                             target='_blank'
                             rel="noopener noreferrer">Live Link</a>
@@ -160,7 +169,8 @@ const Portfolio = () => {
 
                         <p>A website that displays company employees profiles </p> 
                           <p><a href="https://github.com/NtombekaziSibetyu/webDesignProject"
-                            target='_blank' rel="noopener noreferrer">GitHub Link</a>
+                            target='_blank' rel="noopener noreferrer">
+                              <i class="fab fa-github" aria-hidden="true"></i></a>
                           </p>
                           <p><a href="https://github.com/NtombekaziSibetyu/webDesignProject"
                             target='_blank' rel="noopener noreferrer">Live Link</a>
@@ -172,8 +182,7 @@ const Portfolio = () => {
                 </div>
                 
               </div>
-              
-          </div>
+        </div>
   )
 }
 

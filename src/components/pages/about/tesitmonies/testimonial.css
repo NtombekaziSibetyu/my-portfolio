@@ -51,7 +51,7 @@
 }
 
 .testimonial {
-    min-height: 150px;
+    height: 600px;
     position: relative;
     background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
     padding-top: 20px;
@@ -77,7 +77,7 @@
   width: 100%;
   font-size: 0;
   height: 20px;
-  bottom: 15px;
+  bottom: 20px;
   padding: 0 5px;
   cursor: e-resize;
   overflow-x: auto;

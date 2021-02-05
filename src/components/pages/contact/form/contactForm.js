@@ -18,37 +18,37 @@ export default class ContactForm extends React.Component {
         method="POST"
       >
       <div className="form-content">
-        <h4 className="form-header">Send an email</h4>
-          <div className="form-group">
-            <label>Name   </label>
-            <input
-              type="text"
-              name="name"
-              className="form-control form-control-lg"
-              id="name"
-              placeholder="Name"
-            />
-          </div>
-          <div className="form-group">
-          <label>Email  </label>  
-            <input
-              type="email"
-              name="_replyto"
-              className="form-control form-control-lg"
-              id="exampleFormControlInput1"
-              placeholder="Your email"
-            />
-          </div> 
-
-          <div className="form-group">
-            <textarea
-                name="message"
+          <div className="row">
+            <div className="col-md-6 col-sm-6">
+              <label>Name   </label>
+              <input
+                type="text"
+                name="name"
                 className="form-control form-control-lg"
-                id="exampleFormControlTextarea1"
-                rows="3"
-                placeholder="Write your message..."
+                id="name"
+                placeholder="Name"
+              />
+              <label>Email  </label>  
+              <input
+                type="email"
+                name="_replyto"
+                className="form-control form-control-lg"
+                id="exampleFormControlInput1"
+                placeholder="Your email address"
               />
             </div>
+
+            <div className="col-md-6 col-sm-6">
+              <label>Message  </label> 
+                <textarea
+                  name="message"
+                  className="form-control form-control-lg"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Write your message..."
+                />
+            </div>
+          </div>
             
         </div>
         <div className="form-group">
