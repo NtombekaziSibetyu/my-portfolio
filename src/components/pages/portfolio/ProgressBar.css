@@ -5,7 +5,9 @@
   background: rgba(216, 210, 210, 0.938);
   color: rgb(8, 8, 8);
 }
-
+.text-center {
+  text-align: center;
+}
 .progress-bar {
     margin: 10;
     padding: 10px;

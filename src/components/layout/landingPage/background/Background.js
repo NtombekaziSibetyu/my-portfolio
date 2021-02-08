@@ -10,7 +10,7 @@ const Background = ({ text }) => {
             
         <div className='block text-center'> 
             <ReactTypingEffect
-            className='typewriter h1'  speed='100' eraseDelay='80' typingDelay='120' cursor='|'
+            className='typewriter h1'  speed='200' eraseDelay='150' typingDelay='150' cursor='|'
             text={text} />
             
             <p className='card-text card-text-center'>HTML5\ CSS | Bootstrap | JavaScript | React | Python | MySQL | VueJS</p>

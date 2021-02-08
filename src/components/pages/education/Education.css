@@ -1,0 +1,17 @@
+.edu-container{
+    margin: 50 auto;
+    padding: 30px;
+    background: url(https://c0.anyrgb.com/images/645/442/notebook-desk-above-view-flat-lay-blank-glasses-pen-paper-white.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    color: rgb(0, 0, 0);
+}
+ .inner-container {
+    margin-top: 5px;
+    margin-left: 30%;
+    padding: 10px;
+    background-color: transparent;
+    color:#0a0a0a;
+ }

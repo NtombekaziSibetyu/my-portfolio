@@ -1,44 +1,59 @@
-
+.info-container{
+    user-select: none;
+    height: 700px;
+}
 .container{
-    margin-top: 20px;
-    padding: 10px;
+    margin: 35px;
+    margin-top: 35px;
+    padding: 30px;
     background-color: transparent;
     color:#0a0a0a;
 }
 .about-header{
     margin: 0px;
     padding: 20px;
-    display: flex;
     width: 100%;
+    text-align: center;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIl6c2QGo0vscKuJdGE3BmJYhRp4XykmpMCA&usqp=CAU);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 1;
     color: #000000;
 }
-.edu-container{
-    margin: 0;
-    padding: 30px;
-    background: url(https://envato-shoebox-0.imgix.net/3029/37be-d6ae-43ab-9b4b-dbda8e32f0a5/571A7607.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=ec61b8b97597bec8571882dc55830e55);
-    background-color: black;
+.cover-photo{
+    background: #a19c9c;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
-    color: rgb(0, 0, 0);
-}
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    color: #ffffff;
+  }
+.profile{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 93px 0 0 -175px;
+    padding: 7px;
+    background: #ffffff;
+  }
 .header-text{
     margin: 30px;
     width: 600px;
 }
 .row {
     padding: 10px;
-   
 }
-
+.text-center {
+    text-align: center;
+  }
 .header{
     color:#000000;
 }
-
+.text-center {
+    text-align: center;
+  }
 .col-6  {
     margin: 10px;
     padding: 2px;

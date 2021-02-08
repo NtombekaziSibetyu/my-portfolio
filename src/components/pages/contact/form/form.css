@@ -4,7 +4,7 @@
   background-color: transparent;
   justify-content: center;
   color: #FFFFFF;
-  border: solid #ffffff;
+  border: solid 1px #ffffff;
   border-radius: 10px;
 
 }
@@ -24,7 +24,7 @@
     background-color: transparent;
     font-family: 'Open Sans';
     font-size: 20px;
-    border: solid #ffffff;
+    border: solid 1px #ffffff;
     color: white;
     border-radius: 5px;
     margin: 5px;

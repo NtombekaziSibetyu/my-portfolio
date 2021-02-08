@@ -8,12 +8,13 @@ import img5 from './images/vue-contact-keeper.png'
 import img6 from './images/weather.png'
 
 const Portfolio = () => {
-    
     return (
         <div className='portfolio-content' id="portfolio" >
             
             <div>
-              <h2>My Projects <i class="fa fa-code " aria-hidden="true"></i></h2>
+              <div className="text-center">
+              <h3>MY PROJECTS</h3>
+              </div>
                 <div className="cards">
                   <div className="card-container">
                     <div className='card'>

@@ -8,7 +8,9 @@
   background-size: cover;
   color:#463f3f;
 }
-
+.text-center {
+  text-align: center;
+}
 .skill-name {
     font-size: 18px;
   }

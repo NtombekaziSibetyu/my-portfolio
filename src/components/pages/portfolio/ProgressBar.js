@@ -26,8 +26,9 @@ class ProgressBar extends React.Component {
         }
         return (
         <div className='skill-bar'>
-          <h3> 
-             <strong> MY SKILLS </strong>  </h3>
+          <div className="text-center">
+          <h3> MY SKILLS </h3>
+          </div>
           <h4>These are the skills that I have learned and  
             use to create my projects : </h4>
             <div className='row'>

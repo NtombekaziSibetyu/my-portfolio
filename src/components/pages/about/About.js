@@ -7,12 +7,15 @@ import mypic from './mypic.JPG';
 
     return (
         <div className='info-container' id="about">
-            <div className="about-header">
+            <div className="cover-photo">
+                <div className="header">
+                        <h3>ABOUT ME</h3>
+                </div>
                 <img src={mypic}  className='round-img' alt="profile" 
-                    style={{width:'250px',height:'280px'}}/>  
-                <div className="header-text">
-                <p> Full Name : {props.fullname}</p>
-                    <p> Age : {props.age}</p>
+                    style={{width:'300px',height:'300px'}} className="profile"/>  
+            </div>
+            <div className='container'>
+                    
                     <p >
                     I am a self motivated person who is always willing to learn and expand my skills and 
                     knowledge. I am an ambitious individual driven by the desire to succeed and advance 
@@ -20,14 +23,9 @@ import mypic from './mypic.JPG';
                     a web developer. I am passionate about finding different and innovative solutions
                     to problems.
                     </p>
-                </div>
-            </div>
-            <div className='container'>
-            <p></p>
-                <h3><strong>More About Me</strong></h3>
                     
                     <p>
-                    I was introduced to the tech space in high school in grade 10 Information technology we were introduced to Scretch. The
+                    I was introduced to the tech space in high school in grade 10 Information technology we were introduced to Scratch. The
                     realization that I could create programs that could work and produce results was 
                     fascinating for me. After highschool studied Biotechnology because I wanted to study
                     something technology related but with some science because I love science also.
@@ -37,21 +35,7 @@ import mypic from './mypic.JPG';
                     </p> 
                     
             </div>
-            <div className='edu-container'>
-                <br></br>
-                <h3><i className="fas fa-graduation-cap fa-2x" style={{color:'#1a237e'}}></i>
-                    <strong>EDUCATION </strong></h3>
-                <h4><strong>Other  </strong></h4>
-                <p>{props.current}</p>
-                
-                <h4><strong>Tertiary  </strong></h4>
-                <p>Institution : University of Western Cape</p>
-                <p>Qualification : {props.tertiary}</p>
-                
-                <h4 ><strong>Matric </strong></h4>
-                <p>Year  :  2014</p>
-                <p>School  : {props.school}</p>  
-            </div>          
+                     
             
         </div>
 
