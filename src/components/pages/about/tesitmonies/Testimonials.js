@@ -5,10 +5,8 @@ const Testimonial = () => {
     
     return (
         <section class="testimonial text-center" id="testimonials">
-        <div class="container">
-
             <div class="heading white-heading">
-                TESTIMONIALS
+                <h3>TESTIMONIALS</h3>
             </div>
             <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
                 <div class="carousel-inner" role="listbox">
@@ -33,7 +31,7 @@ const Testimonial = () => {
                                 dedication for her work is truly remarkable
                                 and encouraging."
                                 </p>
-                            <h4><strong>Yonela Ntsangani </strong></h4><p>- Collegue</p>
+                            <h4><strong>Yonela Ntsangani </strong></h4><p>- Student at Life Choices Academy</p>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -59,6 +57,30 @@ const Testimonial = () => {
                             <h4><strong>Godwin Dzvapatsva </strong></h4> <p>-  Life Coices Coding Academy Head of Curriculum and Learning</p>
                         </div>
                     </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <img src=""
+                            class="img-circle img-responsive" alt=""  style={{width:'200px',height:'200px'}}/>
+                            <p>"Ntombekazi has shown good performance throughout. She's been very consistent, been on time 
+                                and has rarely been absent despite her travels. 
+                                Ntombekazi is very hard working and committed to her work."
+                            </p>
+                            <h4><strong>Chad Bosch </strong></h4> <p>-  Life Coices Studio Team Leader</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <img src="data:image/jpeg;base64,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"
+                            class="img-circle img-responsive" alt=""  style={{width:'200px',height:'200px'}}/>
+                            <p>"Ntombekhazi  is one of the most impressive contriver I've had the pleasure to work with.
+                                 With her punctual persona and stunning craft, she has an implacable eye for  both front 
+                                 and back end web development.  Despite only working with Khazi for a short time, she has 
+                                 quickly become one of my go-to zealous web developers"
+                            </p>
+                            <h4><strong>Sinothando Bacela </strong></h4> <p>-  Life Coices Studio Intern Developer</p>
+                        </div>
+                    </div>
                 </div>
                 <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
@@ -67,9 +89,8 @@ const Testimonial = () => {
                     <span class="carousel-control-next-icon"></span>
                 </a>
             </div>
-        </div>
+        
     </section>
-
 
     )
               

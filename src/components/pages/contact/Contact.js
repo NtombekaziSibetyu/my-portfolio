@@ -18,11 +18,11 @@ const Contact = (props) => {
             <div className="col-md-4 col-sm-4 address">
               <div>
                 <h4>Email</h4>
-                <p>sntombekazi@gmail.com</p>
+                <h6>sntombekazi@gmail.com</h6>
               </div>
               <div>
                 <h4>Phones</h4>
-                <p>081 348 6222  |  063 044 7645</p>
+                <h6>081 348 6222  |  063 044 7645</h6>
               </div>
             </div>
             </div>

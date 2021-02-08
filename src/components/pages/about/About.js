@@ -11,7 +11,7 @@ import mypic from './mypic.JPG';
                 <div className="header">
                         <h3>ABOUT ME</h3>
                 </div>
-                <img src={mypic}  className='round-img' alt="profile" 
+                <img src={mypic} alt="profile" 
                     style={{width:'300px',height:'300px'}} className="profile"/>  
             </div>
             <div className='container'>

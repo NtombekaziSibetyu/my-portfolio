@@ -11,11 +11,12 @@ const Navbar = () => {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="main_nav">
-                <ul className="navbar-nav mx-auto text-right">
+                <ul className="navbar-nav">
                     <li className="nav-item active"><a className="nav-link" href="/" data-target="#home">Home </a> </li>
                     <li className="nav-item"><a className="nav-link" href="#about"  data-target="#about"> About </a></li>
-                    <li className="nav-item"><a className="nav-link" href="#testimonials" data-id="#testimonials"> Testimonials </a></li>
+                    <li className="nav-item"><a className="nav-link" href="#skills" data-id="#skills">Skills </a></li>
                     <li className="nav-item"><a className="nav-link" href="#portfolio" data-id="#porfolio"> Portfolio </a></li>
+                    <li className="nav-item"><a className="nav-link" href="#testimonials" data-id="#testimonials"> Testimonials </a></li>
                     <li className="nav-item"><a className="nav-link" href="#contact" data-id="#contact"> Contact </a></li>
                 </ul>
             </div> 

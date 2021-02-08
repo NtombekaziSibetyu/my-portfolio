@@ -31,16 +31,15 @@ const Portfolio = () => {
                         <p>The app lets a user login and add a contact, view contacts, update contacts and delete contacts
 
                         </p>
-                        <p>
-                         <h5>React | JavaScript | Nodejs</h5>
-                        <a href="https://github.com/NtombekaziSibetyu/Contact-Keeper"  
+                        <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> React | JavaScript | Nodejs | MongoDB
+                        </p>
+                        <p><a href="https://github.com/NtombekaziSibetyu/Contact-Keeper"  
                               target='_blank' rel="noopener noreferrer" ><i class="fab fa-github" aria-hidden="true"></i>
-                          </a> | 
+                          </a> |   
                           <a href="https://nameless-shore-47202.herokuapp.com/"  
                               target='_blank' rel="noopener noreferrer" >
                               Live Link 
-                          </a>
-                        </p>
+                          </a></p>
                       </div>
                     </div> 
                   </div>
@@ -60,7 +59,7 @@ const Portfolio = () => {
                         <p>
                           A vue web App for keeping contacts. User can save, edit and delete contact
                         </p>
-                        <p>Vue | Vuetify | CSS </p>
+                        <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> Vue | Vuetify | CSS | Firebase </p>
                         <p>
                         <a href='https://github.com/NtombekaziSibetyu/vue-contactKeeper' 
                         target='_blank' rel="noopener noreferrer">
@@ -89,7 +88,7 @@ const Portfolio = () => {
                           A weather widget that shows the weather forecast at you current location for the
                           current day and for thr next five days
                         </p>
-                        <p>HTML | JavaScript | CSS3</p>
+                        <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> HTML | JavaScript | CSS3</p>
                         <p>
                         <a href='https://github.com/NtombekaziSibetyu/weather-widget'
                         target='_blank' rel="noopener noreferrer">
@@ -117,7 +116,7 @@ const Portfolio = () => {
                           A React App that enables a user to search for the github user
                           by typing a user name and in return get the profile information of the user 
                         </p>
-                        <p>React | JavaScript | Nodejs</p>
+                        <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> React | JavaScript | Nodejs</p>
                         <p><a href='https://github.com/NtombekaziSibetyu/search-github-users' 
                         target='_blank' rel="noopener noreferrer">
                          <i class="fab fa-github" aria-hidden="true"></i>
@@ -142,6 +141,8 @@ const Portfolio = () => {
                             A React log system App for technicians that enables adding 
                             system logs, updating and deleting them.The App also enables adding and deleting 
                             technicians.
+
+                            <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> React | Materialize | CSS | Javascipt | Node</p>
                             <br></br> 
                             <a href='https://github.com/NtombekaziSibetyu/IT-Logger'
                             target='_blank'
@@ -168,14 +169,15 @@ const Portfolio = () => {
                       <div className="back">
                         <h4>Company Employees Profiles website</h4>
 
-                        <p>A website that displays company employees profiles </p> 
+                        <p>A website that displays company employees profiles  and an about page </p> 
+                        <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> HTML | CSS | BOOTSTRAP</p>
                           <p><a href="https://github.com/NtombekaziSibetyu/webDesignProject"
                             target='_blank' rel="noopener noreferrer">
-                              <i class="fab fa-github" aria-hidden="true"></i></a>
-                          </p>
-                          <p><a href="https://github.com/NtombekaziSibetyu/webDesignProject"
+                              <i class="fab fa-github" aria-hidden="true"></i></a>   |
+                              <a href="https://first-web-dev-project.netlify.app"
                             target='_blank' rel="noopener noreferrer">Live Link</a>
                           </p>
+                         
                       </div>
                     </div>
                   </div>

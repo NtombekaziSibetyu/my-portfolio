@@ -58,3 +58,65 @@
   .row {
     display: flex;
   }
+  @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .form{
+      padding: 10px;
+      margin: 10px;
+      background-color: transparent;
+      justify-content: center;
+      color: #FFFFFF;
+      border: solid 1px #ffffff;
+      border-radius: 10px;
+    
+    }
+    .form-content {
+      margin: 5px;
+      justify-content: center;
+    }
+    .form-header {
+      margin: 5px;
+    }
+    .label{
+      font-family: 'Open Sans';
+      font-size: 0.8rem;
+      color: #FFFFFF;
+    }
+    .form-button {
+        background-color: transparent;
+        font-family: 'Open Sans';
+        font-size: 5px;
+        border: solid 1px #ffffff;
+        color: white;
+        border-radius: 1px;
+        margin: 5px;
+        padding: 5px;
+        width: 50px;
+        text-align: center;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+      }
+    .​form-button:after {
+        content: "";
+        background:#1a237e;
+        display: block;
+        position: absolute;
+        padding-top: 15%;
+        padding-left: 10%;
+        margin-left: -10px;
+        margin-top: -10%;
+        opacity: 0;
+        transition: all 0.8s
+      }
+      .form-button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+      }
+  }

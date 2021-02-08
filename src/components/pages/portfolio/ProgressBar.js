@@ -1,110 +1,250 @@
 import React from 'react'
 import './ProgressBar.css'
 
-class ProgressBar extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = {
-        progress:{
-            html: '70',
-            css: '60',
-            bootstrap: '60',
-            python:'80',
-            mysql:'90',
-            js:'70',
-            react:'60',
-            nodejs : "",
-            vue: '60',
-            vuetify : "70"
-        }
-      };
-    }
-     
-      render() {
-        const progress = {
-          width: this.state.progress + "%"
-        }
-        return (
-        <div className='skill-bar'>
-          <div className="text-center">
-          <h3> MY SKILLS </h3>
-          </div>
-          <h4>These are the skills that I have learned and  
-            use to create my projects : </h4>
-            <div className='row'>
-                <div className='col-12'>
-                    <h4>  HTML5</h4>
-                    <div className="progress">
-                      <div className="progress-bar" role="progressbar" id="html"
-                        style={{ width: `${this.state.progress.html}%`}}  aria-valuenow={progress.css} aria-valuemin="0" 
-                        aria-valuemax="100">
-                        { this.state.progress.html + "%" }
-                      </div>
-                    </div>
+const ProgressBar = () => {
+  return (
+    <div class="container-skills" id="skills">
+        <div className="skill-text-center">
+         <h3> SKILLS</h3>
+         <h5>Following are the skills I have acquired since starting my journey in web development.</h5>
+        </div>
+          <div className="browser-content ">
+              <div id="html" className="skill-row" >
+                  <p>
+                  <i className="f">
+                  <img src="https://img.icons8.com/color/35/000000/html-5.png" alt="html"/></i> 
+                  <span className="heading">HTML</span>
+                </p>
+    
+                <div className="stars">
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="far fa-star"></i>
+                  <i className="far fa-star"></i>
                 </div>
-                <div className='col-12'>
-                    <h5>CSS3</h5>
-                    <div className="progress">
-                      <div className="progress-bar" role="progressbar" id="css"
-                        style={{ width: `${this.state.progress.css}%`}} aria-valuenow={progress.css} aria-valuemin="0" 
-                        aria-valuemax="100">{ this.state.progress.css + "%" }</div>
-                      </div>
-                    </div>
-                <div className='col-12'>
-                    <h5>Bootstrap</h5>
-                    <div className="progress">
-                    <div className="progress-bar" role="progressbar" id="bootstrap"
-                    style={{ width: `${this.state.progress.bootstrap}%`}} aria-valuenow={progress.bootstrap} aria-valuemin="0" 
-                    aria-valuemax="100">{ this.state.progress.bootstrap + "%" }</div>
-                    </div>
+              </div>
+             
+              <div id="css" className="skill-row" >
+                <p>
+                  <i className="fab t"><img src="https://img.icons8.com/color/35/000000/css3.png" alt="css"/></i> 
+                  <span className="heading">CSS</span>
+                </p>
+                <div className="stars">
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="far fa-star"></i>
+                  <i className="far fa-star"></i>
+                </div>
+              </div>
+
+              <div id="javascript" className="skill-row">
+                <p>
+                  <i className="fab "><img src="https://img.icons8.com/color/30/000000/javascript.png" alt="js"/></i> 
+                  <span className="heading">JavaScript</span>
+                </p>
+                <div className="stars">
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="far fa-star"></i>
+                  <i className="far fa-star"></i>
+                  <i className="far fa-star"></i>
+                </div>
+              </div>
+
+              <div id="git" className="skill-row" >
+                <p>
+                  <i className=" "><img src="https://img.icons8.com/fluent/30/26e07f/github.png" alt="git"/></i> 
+                  <span classv="heading">GIT</span>
+                </p>
+                <div className="stars">
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="far fa-star"></i>
+                  <i className="far fa-star"></i>
+                  <i className="far fa-star"></i>
+                  <i className="far fa-star"></i>
+                </div>
+              </div>
+
+              <div id="node" className="skill-row" >
+                <p>
+                  <i className="fab e"><img src="https://img.icons8.com/windows/32/26e07f/nodejs.png" alt="node"/></i> 
+                  <span className="heading">NodeJS</span>
+                </p>
+                <div className="stars">
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i clasNames="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="far fa-star"></i>
+                  <i className="far fa-star"></i>
+                  <i className="far fa-star"></i>
+                  <i className="far fa-star"></i>
+                </div>
+              </div>
+                
+              <div id="react" className="skill-row" >
+                  <p>
+                    <i className="fab f"><img src="https://img.icons8.com/plasticine/35/26e07f/react.png" alt="reac"/></i> 
+                    <span className="heading">React</span>
+                  </p>
+                  <div className="stars">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                  </div>
+              </div>
+
+              <div id="python" className="skill-row" >
+                  <p>
+                    <i className="fab "><img src="https://img.icons8.com/color/30/000000/python.png" alt="python"/></i> 
+                    <span className="heading">Python</span>
+                  </p>
+                  <div className="stars">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                  </div>
                 </div>
 
-                <div className='col-12'>
-                    <h5>Python</h5>
-                    <div className="progress">
-                    <div className="progress-bar" role="progressbar" id="python"
-                    style={{ width: `${this.state.progress.python}%`}} aria-valuenow={progress.python} aria-valuemin="0" 
-                    aria-valuemax="100">{ this.state.progress.python + "%" }</div>
-                    </div>
+                <div id="vuejs" className="skill-row" >
+                  <p>
+                    <i className="fab f"><img src="https://img.icons8.com/windows/32/26e07f/vuejs.png" alt="vue"/></i> 
+                    <span className="heading">Vue.js</span>
+                  </p>
+                  <div className="stars">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                  </div>
                 </div>
-                <div className='col-12'>
-                    <h5>MySQL</h5>
-                    <div className="progress">
-                    <div className="progress-bar" role="progressbar" id="mysql"
-                    style={{ width: `${this.state.progress.mysql}%`}} aria-valuenow={progress.mysql} aria-valuemin="0" 
-                    aria-valuemax="100">{ this.state.progress.mysql + "%" }</div>
-                    </div>
-                </div>
-                <div className='col-12'>
-                    <h5>JavaScript</h5>
-                    <div className="progress">
-                    <div className="progress-bar" role="progressbar" id="js"
-                    style={{ width: `${this.state.progress.js}%`}} aria-valuenow={progress.js} aria-valuemin="0" 
-                    aria-valuemax="100">{ this.state.progress.js + "%" }</div>
-                    </div>
-                </div>
-                <div className='col-12'>
-                    <h5>React</h5>
-                    <div className="progress">
-                    <div className="progress-bar" role="progressbar" id="react"
-                    style={{ width: `${this.state.progress.react}%`}} aria-valuenow={progress.react} aria-valuemin="0" 
-                    aria-valuemax="100">{ this.state.progress.react + "%" }</div>
-                    </div>
-                </div>
-                <div className='col-12'>
-                    <h5>VueJS</h5>
-                    <div className="progress">
-                    <div className="progress-bar" role="progressbar" id="vue"
-                    style={{ width: `${this.state.progress.vue}%`}} aria-valuenow={progress.vue} aria-valuemin="0" 
-                    aria-valuemax="100">{ this.state.progress.react + "%" }</div>
-                    </div>
+
+                <div id="mongodb" className="skill-row" >
+                  <p>
+                  <img src="https://img.icons8.com/color/30/000000/mongodb.png" alt="mongodb"/> 
+                    <span className="heading">MongoDB</span>
+                  </p>
+                  <div className="stars">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                  </div>
                 </div>
                 
-            </div>
-        </div>
-          )
-        }
-      }
+                <div id="mysql" className="skill-row" >
+                  <p>
+                    <i className="fab fa-mysql fa-2x">
+                    <img src="https://img.icons8.com/ios-filled/30/000000/mysql.png" alt="sql"/>
+                      </i> 
+                    <span className="heading">MySQL</span>
+                  </p>
+                  <div className="stars">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                  </div>
+                </div>
 
+                <div id="bootstrap" className="skill-row" >
+                  <p>
+                    <i className="fab fa-mysql fa-2x">
+                    <img src="https://img.icons8.com/color/30/000000/bootstrap.png" alt="bootsrap"/>                      </i> 
+                    <span className="heading">Bootstrap</span>
+                  </p>
+                  <div className="stars">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                  </div>
+                </div>
+
+                <div id="firebase" className="skill-row" >
+                  <p>
+                    <i className="">
+                    <img src="https://img.icons8.com/color/30/000000/firebase.png"alt="firebase"/>                     </i> 
+                    <span className="heading">Firebase</span>
+                  </p>
+                  <div className="stars">
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                    <i className="far fa-star"></i>
+                  </div>
+                </div>
+          </div>
+      </div>
+  )
+}
 export default ProgressBar;
       

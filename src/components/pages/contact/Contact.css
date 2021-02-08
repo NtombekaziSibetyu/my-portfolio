@@ -2,8 +2,7 @@
 .form-content {
 	margin: 0 auto;
   padding: 30px ;
-  background: #00000F;
-
+  background: #343435;
   opacity: 0.9;
 	width: 100%;
   color: #FFFFFF;
@@ -12,3 +11,9 @@
 .text-center {
   text-align: center;
 }
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    
+  }

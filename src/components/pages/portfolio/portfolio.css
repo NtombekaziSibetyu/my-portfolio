@@ -3,10 +3,11 @@
   padding: 30px ;
   opacity: 0.9;
   width: 100%;
-  background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMY0RpkEiw8MVdjpAL-78vTioZxoTV3ZH7Gw&usqp=CAU);
+  background:url(https://wallpaperaccess.com/full/3936032.jpg);
+  background-repeat: no-repeat;
   opacity: 1;
   background-size: cover;
-  color:#463f3f;
+  color:#000000;
 }
 .text-center {
   text-align: center;
@@ -87,6 +88,7 @@
 }
 .text-center {
   text-align: center;
+  padding: 10px;
 }
 @media screen and (max-width: 600px) {
   .row { 
