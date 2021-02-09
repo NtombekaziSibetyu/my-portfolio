@@ -1,12 +1,10 @@
 .info-container{
     user-select: none;
-    height: 750px;
+    height: 900px;
 }
 .container{
-    margin: 100px;
-    margin-top: 100px;
-    padding: 50px;
-    background-color: transparent;
+    margin: 5%;
+    padding:10%;
     color:#0a0a0a;
     font-family: 'Open Sans';
     font-size: 18px;
@@ -26,22 +24,23 @@
     background:url(https://wallpaperaccess.com/full/521111.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 350px;
+    padding: 10px;
     width: 100%;
     text-align: center;
     border-radius: 5px 5px 0 0;
     color: #ffffff;
   }
 .profile{
-    height: 200px;
-    width: 200px;
+    height: 380px;
+    width: 350px;
     border-radius: 50%;
-    margin: 60px auto;
-    padding: 7px;
+    margin: 2% auto;
+    padding: 5px;
     background: #ffffff;
   }
 .header-text{
-    margin: 30px;
+    margin: 7%x;
     width: 600px;
 }
 .row {
@@ -51,7 +50,7 @@
     text-align: center;
   }
 .header{
-    padding: 20px;
+    padding: 2%;
     color:#ffffff;
 }
 .text-center {

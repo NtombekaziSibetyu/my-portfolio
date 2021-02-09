@@ -9,11 +9,12 @@ import mypic from './mypic.JPG';
         <div className='info-container' id="about">
             <div className="cover-photo">
                 <div className="header">
-                        <h3>ABOUT ME</h3>
+                        <h1>ABOUT ME</h1>
                 </div>
                 <img src={mypic} alt="profile" 
-                    style={{width:'300px',height:'300px'}} className="profile"/>  
+                     className="profile"/>  
             </div>
+
             <div className='container'>
                     
                     <p >
