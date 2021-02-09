@@ -1,5 +1,6 @@
 import React from 'react';
 import './Education.css'
+import certificate from './Scancertif.pdf'
 
 const Education = () => {
     return(
@@ -18,6 +19,11 @@ const Education = () => {
                 <h5>Institution : University of Western Cape</h5>
                 <h5>Qualification : BSc Biotechnology</h5>
                 <h5>Year  :  2018</h5>
+                <p>Open Certificate PDF file 
+                    <a href={certificate} target='_blank'
+                            rel="noopener noreferrer">
+                                <img src="https://img.icons8.com/office/30/4a90e2/pdf.png" alt="certif"/>
+                     </a>.</p>
                 
                 <h4 ><strong>Matric </strong></h4>
                 <h5>Year  :  2014</h5>

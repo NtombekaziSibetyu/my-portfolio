@@ -7,6 +7,7 @@ import img4 from './images/github.png'
 import img5 from './images/vue-contact-keeper.png'
 import img6 from './images/weather.png'
 
+
 const Portfolio = () => {
     return (
         <div className='portfolio-content' id="portfolio" >
@@ -149,7 +150,7 @@ const Portfolio = () => {
                             rel="noopener noreferrer">
                               <i class="fab fa-github" aria-hidden="true"></i>
                               </a> | 
-                            <a href='https://github.com/NtombekaziSibetyu/IT-Logger'
+                            <a href='https://youthful-perlman-f9f594.netlify.app'
                             target='_blank'
                             rel="noopener noreferrer">Live Link</a>
                           </p>  

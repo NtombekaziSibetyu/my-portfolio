@@ -70,7 +70,7 @@ const ProgressBar = () => {
 
               <div id="git" className="skill-row" >
                 <p>
-                  <i className=" "><img src="https://img.icons8.com/fluent/30/26e07f/github.png" alt="git"/></i> 
+                  <i className="fa "><img src="https://img.icons8.com/fluent/30/26e07f/github.png" alt="git"/></i> 
                   <span classv="heading">GIT</span>
                 </p>
                 <div className="stars">

@@ -1,5 +1,6 @@
 import React from 'react'
 import './testimonial.css'
+import chad from './Chad.png'
 
 const Testimonial = () => {
     
@@ -59,7 +60,7 @@ const Testimonial = () => {
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src=""
+                            <img src={chad}
                             class="img-circle img-responsive" alt=""  style={{width:'200px',height:'200px'}}/>
                             <p>"Ntombekazi has shown good performance throughout. She's been very consistent, been on time 
                                 and has rarely been absent despite her travels. 
