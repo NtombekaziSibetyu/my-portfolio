@@ -8,7 +8,7 @@
 }
 
 .skill-text-center{
-  padding: 30px;
+  padding: 2%;
 }
 
 .skill-cards {
@@ -20,10 +20,10 @@
   }
   
 .card-skill {
-	margin: 30px auto;
+	margin: 10px auto;
 	height: 150px;
 	width: 180px;
-	padding: 20px;
+	padding: 30px;
 	background: rgb(255, 255, 255);
 	color: #000000;
 	/* flex: 1% 1% 40%; */
@@ -31,17 +31,6 @@
 	justify-content: center;
 	text-align: center;
 	}
-/* .card-skill:hover{
-
-}  */
-.skill img {
-	margin-right: 10px;
-	margin-top: 5px;
-	width: 50px;
-	height: 50px;
-	align-self: center;
-}
-
 
 
 /* ~ Item Content ~ */

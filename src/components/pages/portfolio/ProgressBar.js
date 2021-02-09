@@ -15,7 +15,6 @@ const ProgressBar = () => {
                <img src="https://img.icons8.com/windows/100/26e07f/nodejs.png" alt="node"/> 
               </div>
               <p>NodeJS</p>
-            
           </div>
                 
           <div className="card-skill" >

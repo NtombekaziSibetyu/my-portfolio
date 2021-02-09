@@ -1,6 +1,7 @@
 import React from 'react'
 import './testimonial.css'
 import chad from './Chad.png'
+import doreen from './rowena.jpeg'
 
 const Testimonial = () => {
     
@@ -82,6 +83,18 @@ const Testimonial = () => {
                                  quickly become one of my go-to zealous web developers"
                             </p>
                             <h4><strong>Sinothando Bacela </strong></h4> <p>-  Life Coices Studio Intern Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <img src={doreen}
+                            class="img-circle img-responsive" alt=""  style={{width:'200px',height:'200px'}}/>
+                            <p>"Ntombekazi Sibetyu  is a very dedicated individual who has shown great work , 
+                                pay attention to details during her tasks and projects.She has prove herself that
+                                 she has the ability and is capable of working on her own through stress and peer pressure."
+                            </p>
+                            <h4><strong>Doreen Ligman </strong></h4> <p>-  Life Coices Studio Intern Developer</p>
                         </div>
                     </div>
                 </div>
