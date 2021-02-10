@@ -14,7 +14,7 @@ const Footer = () => {
             title="Twitter"><i class="fab fa-twitter"></i></a></li>
             
             
-            <li><a class="icoFacebook" href="https://www.facebook.com/" target='_blank' rel="noopener noreferrer"
+            <li><a class="icoFacebook" href="https://www.facebook.com/NtombekaziSIbetyu" target='_blank' rel="noopener noreferrer"
             title="Facebook"><i class="fab fa-facebook"></i></a></li>
             <li><a class="icoInstagram" href="https://www.instagram.com/nsibetyu"
              target='_blank' rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a></li>
