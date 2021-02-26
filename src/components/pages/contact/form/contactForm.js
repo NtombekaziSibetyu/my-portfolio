@@ -48,12 +48,13 @@ export default class ContactForm extends React.Component {
                   placeholder="Write your message..."
                 />
             </div>
+            <div className="form-group">
+                  {status === "SUCCESS" ? <p>Email sent. Thanks!</p> : <button className='form-button'>Send</button>}
+                  {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                </div>
           </div>
         </div>
-        <div className="form-group">
-          {status === "SUCCESS" ? <p>Email sent. Thanks!</p> : <button className='form-button'>Send</button>}
-          {status === "ERROR" && <p>Ooops! There was an error.</p>}
-        </div>
+       
       </form>
     );
   }

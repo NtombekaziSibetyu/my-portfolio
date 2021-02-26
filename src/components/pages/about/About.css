@@ -2,9 +2,10 @@
     user-select: none;
     height: 900px;
 }
-.container{
-    margin: 5%;
+.about-container{
+    margin: 1%;
     padding:10%;
+    width: 100%;
     color:#0a0a0a;
     font-family: 'Open Sans';
     font-size: 18px;
@@ -24,7 +25,7 @@
     background:url(https://wallpaperaccess.com/full/521111.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    height: 400px;
     padding: 10px;
     width: 100%;
     text-align: center;

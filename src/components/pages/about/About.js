@@ -15,7 +15,7 @@ import mypic from './mypic.JPG';
                      className="profile"/>  
             </div>
 
-            <div className='container'>
+            <div className='about-container'>
                     
                     <p >
                     I am a self motivated person who is always willing to learn and expand my skills and 
