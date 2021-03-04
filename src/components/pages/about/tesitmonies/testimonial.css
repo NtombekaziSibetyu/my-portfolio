@@ -52,7 +52,7 @@
 }
 
 .testimonial {
-    min-height: 600px;
+    height: 100%;
     position: relative;
     background: url(https://c0.wallpaperflare.com/preview/231/247/682/5be98e06c77ea.jpg);
     padding-top: 10px;
