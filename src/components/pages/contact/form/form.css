@@ -60,11 +60,10 @@
   }
   @media screen 
   and (device-width: 360px) 
-  and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) {
     .form{
       padding: 10px;
-      margin: 10px;
+      margin: 5px;
       background-color: transparent;
       justify-content: center;
       color: #FFFFFF;
@@ -72,15 +71,15 @@
       border-radius: 10px;
     }
     .form-content {
-      margin: 5px;
+      margin: 2px;
       justify-content: center;
     }
     .form-header {
-      margin: 5px;
+      margin: 3px;
     }
     .label{
       font-family: 'Open Sans';
-      font-size: 0.8rem;
+      font-size: 0.4rem;
       color: #FFFFFF;
     }
     .form-button {
@@ -90,8 +89,8 @@
         border: solid 1px #ffffff;
         color: white;
         border-radius: 1px;
-        margin: 5px;
-        padding: 5px;
+        margin: 3px;
+        padding: 3px;
         width: 30px;
         text-align: center;
         -webkit-transition-duration: 0.4s; 
