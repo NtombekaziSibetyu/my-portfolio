@@ -3,7 +3,8 @@ import './ProgressBar.css'
 
 const ProgressBar = () => {
   return (
-    <div className="container-cards" id="skills">
+    <section>
+      <div className="container-cards" id="skills">
         <div className="skill-text-center">
           <h3> <strong>COMPETENCIES</strong></h3>
           <p className="separator" />
@@ -89,6 +90,7 @@ const ProgressBar = () => {
         </div>
           
       </div>
+    </section>
   )
 }
 export default ProgressBar;

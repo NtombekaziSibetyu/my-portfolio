@@ -106,12 +106,9 @@ const Testimonial = () => {
                     <span class="carousel-control-next-icon"></span>
                 </a>
             </div>
-        
-    </section>
-
+        </section>
     )
-              
-    
+               
 }
 
 export default Testimonial;

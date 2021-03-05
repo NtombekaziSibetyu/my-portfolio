@@ -10,7 +10,8 @@ import img6 from './images/weather.png'
 
 const Portfolio = () => {
     return (
-        <div className='portfolio-content' id="portfolio" >
+        <section>
+          <div className='portfolio-content' id="portfolio" >
             
             <div>
               <div className="text-center">
@@ -189,7 +190,8 @@ const Portfolio = () => {
                 </div>
                 
               </div>
-        </div>
+          </div>
+        </section>
   )
 }
 

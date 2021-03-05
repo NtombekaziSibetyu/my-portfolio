@@ -4,7 +4,8 @@ import certificate from './Scancertif.pdf'
 
 const Education = () => {
     return(
-        <div className='edu-container'>
+        <section>
+            <div className='edu-container'>
             <div className="inner-container">
             <br></br>
                 <h3>
@@ -36,6 +37,7 @@ const Education = () => {
 
             </div>
         </div> 
+        </section>
     )
 
 }
