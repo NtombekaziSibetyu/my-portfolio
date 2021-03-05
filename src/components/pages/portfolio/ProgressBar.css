@@ -1,7 +1,10 @@
 .container-cards {
+	margin: 1%;
+	padding:5%;
+	width: 100%;
   margin: 0 auto;
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  height: 900px;
   background: #343435;
   color: #ffffff;
   text-align: center;
@@ -10,10 +13,15 @@
 .skill-text-center{
   padding: 2%;
 }
-
+.separator {
+	background: #f3a600;
+	width: 150px;
+	height: 2px;
+	margin: 1rem auto;
+  }
 .skill-cards {
 	margin: 5px;
-	padding: 1%;
+	padding: 2%;
   	display: flex;
   	flex-wrap: wrap;
   	justify-content: space-between;
@@ -21,8 +29,8 @@
   
 .card-skill {
 	margin: 10px auto;
-	height: 150px;
-	width: 180px;
+	height: 180px;
+	width: 200px;
 	padding: 30px;
 	background: rgb(255, 255, 255);
 	color: #000000;

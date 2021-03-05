@@ -2,3 +2,12 @@
     margin-right: 0px;
     margin-left: 50%;
 }
+.navbar-brand{
+    color: #f3a600;
+}
+.navbar-toggler:hover{
+    color: #f3a600;
+}
+.nav-item:hover{
+    color: #f3a600;
+}

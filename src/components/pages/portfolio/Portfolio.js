@@ -14,7 +14,8 @@ const Portfolio = () => {
             
             <div>
               <div className="text-center">
-              <h3>MY PROJECTS</h3>
+              <h3><strong>MY PROJECTS</strong></h3>
+              <p className="separator" />
               </div>
                 <div className="cards">
                   <div className="card-container">
@@ -34,12 +35,13 @@ const Portfolio = () => {
                         </p>
                         <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> React | JavaScript | Nodejs | MongoDB
                         </p>
-                        <p><a href="https://github.com/NtombekaziSibetyu/Contact-Keeper"  
-                              target='_blank' rel="noopener noreferrer" ><i class="fab fa-github" aria-hidden="true"></i>
-                          </a> |   
-                          <a href="https://nameless-shore-47202.herokuapp.com/"  
+                        <p><a className="link" href="https://github.com/NtombekaziSibetyu/Contact-Keeper"  
                               target='_blank' rel="noopener noreferrer" >
-                              Live Link 
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                          </a> |   
+                          <a className="link" href="https://nameless-shore-47202.herokuapp.com/"  
+                              target='_blank' rel="noopener noreferrer" >
+                              Live Link <i className="fas fa-external-link-alt" />
                           </a></p>
                       </div>
                     </div> 
@@ -62,11 +64,11 @@ const Portfolio = () => {
                         </p>
                         <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> Vue | Vuetify | CSS | Firebase </p>
                         <p>
-                        <a href='https://github.com/NtombekaziSibetyu/vue-contactKeeper' 
+                        <a className="link" href='https://github.com/NtombekaziSibetyu/vue-contactKeeper' 
                         target='_blank' rel="noopener noreferrer">
                          <i class="fab fa-github" aria-hidden="true"></i></a> |
-                         <a href='https://contact-keeper-27934.web.app/' 
-                        target='_blank' rel="noopener noreferrer">Live Link</a>
+                         <a className="link" href='https://contact-keeper-27934.web.app/' 
+                        target='_blank' rel="noopener noreferrer">Live Link <i className="fas fa-external-link-alt" /> </a>
                         </p>
                         
                       </div>
@@ -91,12 +93,12 @@ const Portfolio = () => {
                         </p>
                         <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> HTML | JavaScript | CSS3</p>
                         <p>
-                        <a href='https://github.com/NtombekaziSibetyu/weather-widget'
+                        <a className="link" href='https://github.com/NtombekaziSibetyu/weather-widget'
                         target='_blank' rel="noopener noreferrer">
                           <i class="fab fa-github" aria-hidden="true"></i>
                           </a> | 
-                        <a href='https://ntombekazi-weather-widget.netlify.app/'
-                        target='_blank' rel="noopener noreferrer">Live Link</a>
+                        <a className="link" href='https://ntombekazi-weather-widget.netlify.app/'
+                        target='_blank' rel="noopener noreferrer">Live Link <i className="fas fa-external-link-alt" /></a>
                         </p>
                       </div>
                     </div>
@@ -118,12 +120,13 @@ const Portfolio = () => {
                           by typing a user name and in return get the profile information of the user 
                         </p>
                         <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> React | JavaScript | Nodejs</p>
-                        <p><a href='https://github.com/NtombekaziSibetyu/search-github-users' 
+                        <p>
+                          <a className="link" href='https://github.com/NtombekaziSibetyu/search-github-users' 
                         target='_blank' rel="noopener noreferrer">
                          <i class="fab fa-github" aria-hidden="true"></i>
-                         </a>  |  <a href='https://react-github-user-finder.netlify.app/' 
+                         </a>  |  <a className="link" href='https://react-github-user-finder.netlify.app/' 
                         target='_blank' rel="noopener noreferrer">
-                         Live Link</a></p> 
+                         Live Link</a><i className="fas fa-external-link-alt" /></p> 
                       </div>
                     </div>
                   </div>
@@ -145,14 +148,14 @@ const Portfolio = () => {
 
                             <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> React | Materialize | CSS | Javascipt | Node</p>
                             <br></br> 
-                            <a href='https://github.com/NtombekaziSibetyu/IT-Logger'
+                            <a className="link" href='https://github.com/NtombekaziSibetyu/IT-Logger'
                             target='_blank'
                             rel="noopener noreferrer">
                               <i class="fab fa-github" aria-hidden="true"></i>
                               </a> | 
-                            <a href='https://youthful-perlman-f9f594.netlify.app'
+                            <a className="link" href='https://youthful-perlman-f9f594.netlify.app'
                             target='_blank'
-                            rel="noopener noreferrer">Live Link</a>
+                            rel="noopener noreferrer">Live Link <i className="fas fa-external-link-alt" /></a>
                           </p>  
                       </div>
                     </div>
@@ -172,11 +175,11 @@ const Portfolio = () => {
 
                         <p>A website that displays company employees profiles  and an about page </p> 
                         <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> HTML | CSS | BOOTSTRAP</p>
-                          <p><a href="https://github.com/NtombekaziSibetyu/webDesignProject"
+                          <p><a className="link" href="https://github.com/NtombekaziSibetyu/webDesignProject"
                             target='_blank' rel="noopener noreferrer">
                               <i class="fab fa-github" aria-hidden="true"></i></a>   |
-                              <a href="https://first-web-dev-project.netlify.app"
-                            target='_blank' rel="noopener noreferrer">Live Link</a>
+                              <a className="link" href="https://first-web-dev-project.netlify.app"
+                            target='_blank' rel="noopener noreferrer">Live Link <i className="fas fa-external-link-alt" /></a>
                           </p>
                          
                       </div>

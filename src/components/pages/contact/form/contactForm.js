@@ -20,24 +20,28 @@ export default class ContactForm extends React.Component {
       <div className="form-content">
           <div className="row">
             <div className="col-md-6 col-sm-6">
-              <label>Name   </label>
-              <input
-                type="text"
-                name="name"
-                className="form-control form-control-lg"
-                id="name"
-                placeholder="Name"
-              />
-              <label>Email  </label>  
-              <input
-                type="email"
-                name="_replyto"
-                className="form-control form-control-lg"
-                id="exampleFormControlInput1"
-                placeholder="Your email address"
-              />
+              <div>
+                <label>Name   </label>
+                <input
+                  type="text"
+                  name="name"
+                  className="form-control form-control-lg"
+                  id="name"
+                  placeholder="Name"
+                />
+              </div>
+              <div>
+                <label>Email  </label>  
+                <input
+                  type="email"
+                  name="_replyto"
+                  className="form-control form-control-lg"
+                  id="exampleFormControlInput1"
+                  placeholder="Your email address"
+                />
+              </div>
+              
             </div>
-
             <div className="col-md-6 col-sm-6">
               <label>Message  </label> 
                 <textarea
@@ -48,10 +52,10 @@ export default class ContactForm extends React.Component {
                   placeholder="Write your message..."
                 />
             </div>
-            <div className="form-group">
-                  {status === "SUCCESS" ? <p>Email sent. Thanks!</p> : <button className='form-button'>Send</button>}
-                  {status === "ERROR" && <p>Ooops! There was an error.</p>}
-                </div>
+          </div>
+          <div className="form-group">
+              {status === "SUCCESS" ? <p>Email sent. Thanks!</p> : <button className='form-button'>Send</button>}
+              {status === "ERROR" && <p>Ooops! There was an error.</p>}
           </div>
         </div>
        

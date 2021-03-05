@@ -8,9 +8,30 @@
   color: #FFFFFF;
   height: 100%;
 }
+
 .text-center {
   text-align: center;
 }
+.text-center .h3:hover{
+  color: #f3a600;
+}
+.separator {
+	background: #f3a600;
+	width: 150px;
+	height: 2px;
+	margin: 1rem auto;
+  }
+.seperator:hover{
+  color: #FFFFFF;
+}
+.address1 {
+margin: 0 auto;
+padding: 1%;
+}
+.address2 {
+  margin: 0 auto;
+  padding: 1%;
+  }
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 

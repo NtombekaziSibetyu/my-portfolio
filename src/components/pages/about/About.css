@@ -3,7 +3,8 @@
     height: 100%;
 }
 .about-container{
-    margin: 1%;
+    margin: 1% auto;
+    top: 1%;
     padding:10%;
     width: 100%;
     color:#0a0a0a;
@@ -41,7 +42,7 @@
     background: #ffffff;
   }
 .header-text{
-    margin: 7%x;
+    margin: 7%;
     width: 600px;
 }
 .row {
