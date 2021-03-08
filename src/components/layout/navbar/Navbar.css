@@ -1,6 +1,7 @@
 .navbar-nav{
     margin-right: 0px;
     margin-left: 50%;
+    position: fixed;
 }
 .navbar-brand{
     color: #f3a600;

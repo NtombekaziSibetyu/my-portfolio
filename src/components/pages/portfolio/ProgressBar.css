@@ -4,7 +4,7 @@
 	width: 100%;
   margin: 0 auto;
   /* width: 100%; */
-  height: 900px;
+  /* height: 900px; */
   background: #343435;
   color: #ffffff;
   text-align: center;
@@ -29,8 +29,8 @@
   
 .card-skill {
 	margin: 10px auto;
-	height: 180px;
-	width: 200px;
+	height: 200px;
+	width: 250px;
 	padding: 30px;
 	background: rgb(255, 255, 255);
 	color: #000000;

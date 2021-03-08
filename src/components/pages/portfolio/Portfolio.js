@@ -34,11 +34,11 @@ const Portfolio = () => {
                         <p>The app lets a user login and add a contact, view contacts, update contacts and delete contacts
 
                         </p>
-                        <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> React | JavaScript | Nodejs | MongoDB
-                        </p>
+                        <div><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> React | JavaScript | Nodejs | MongoDB
+                        </div>
                         <p><a className="link" href="https://github.com/NtombekaziSibetyu/Contact-Keeper"  
                               target='_blank' rel="noopener noreferrer" >
-                                <i class="fab fa-github" aria-hidden="true"></i>
+                                <i className="fab fa-github" aria-hidden="true"></i>
                           </a> |   
                           <a className="link" href="https://nameless-shore-47202.herokuapp.com/"  
                               target='_blank' rel="noopener noreferrer" >
@@ -63,11 +63,11 @@ const Portfolio = () => {
                         <p>
                           A vue web App for keeping contacts. User can save, edit and delete contact
                         </p>
-                        <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> Vue | Vuetify | CSS | Firebase </p>
+                        <div><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> Vue | Vuetify | CSS | Firebase </div>
                         <p>
                         <a className="link" href='https://github.com/NtombekaziSibetyu/vue-contactKeeper' 
                         target='_blank' rel="noopener noreferrer">
-                         <i class="fab fa-github" aria-hidden="true"></i></a> |
+                         <i className="fab fa-github" aria-hidden="true"></i></a> |
                          <a className="link" href='https://contact-keeper-27934.web.app/' 
                         target='_blank' rel="noopener noreferrer">Live Link <i className="fas fa-external-link-alt" /> </a>
                         </p>
@@ -92,11 +92,11 @@ const Portfolio = () => {
                           A weather widget that shows the weather forecast at you current location for the
                           current day and for thr next five days
                         </p>
-                        <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> HTML | JavaScript | CSS3</p>
+                        <div><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> HTML | JavaScript | CSS3</div>
                         <p>
                         <a className="link" href='https://github.com/NtombekaziSibetyu/weather-widget'
                         target='_blank' rel="noopener noreferrer">
-                          <i class="fab fa-github" aria-hidden="true"></i>
+                          <i className="fab fa-github" aria-hidden="true"></i>
                           </a> | 
                         <a className="link" href='https://ntombekazi-weather-widget.netlify.app/'
                         target='_blank' rel="noopener noreferrer">Live Link <i className="fas fa-external-link-alt" /></a>
@@ -120,11 +120,11 @@ const Portfolio = () => {
                           A React App that enables a user to search for the github user
                           by typing a user name and in return get the profile information of the user 
                         </p>
-                        <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> React | JavaScript | Nodejs</p>
+                        <div><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> React | JavaScript | Nodejs</div>
                         <p>
                           <a className="link" href='https://github.com/NtombekaziSibetyu/search-github-users' 
                         target='_blank' rel="noopener noreferrer">
-                         <i class="fab fa-github" aria-hidden="true"></i>
+                         <i className="fab fa-github" aria-hidden="true"></i>
                          </a>  |  <a className="link" href='https://react-github-user-finder.netlify.app/' 
                         target='_blank' rel="noopener noreferrer">
                          Live Link</a><i className="fas fa-external-link-alt" /></p> 
@@ -147,12 +147,12 @@ const Portfolio = () => {
                             system logs, updating and deleting them.The App also enables adding and deleting 
                             technicians.
 
-                            <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> React | Materialize | CSS | Javascipt | Node</p>
+                            <div><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> React | Materialize | CSS | Javascipt | Node</div>
                             <br></br> 
                             <a className="link" href='https://github.com/NtombekaziSibetyu/IT-Logger'
                             target='_blank'
                             rel="noopener noreferrer">
-                              <i class="fab fa-github" aria-hidden="true"></i>
+                              <i className="fab fa-github" aria-hidden="true"></i>
                               </a> | 
                             <a className="link" href='https://youthful-perlman-f9f594.netlify.app'
                             target='_blank'
@@ -175,10 +175,10 @@ const Portfolio = () => {
                         <h4>Company Employees Profiles website</h4>
 
                         <p>A website that displays company employees profiles  and an about page </p> 
-                        <p><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> HTML | CSS | BOOTSTRAP</p>
+                        <div><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> HTML | CSS | BOOTSTRAP</div>
                           <p><a className="link" href="https://github.com/NtombekaziSibetyu/webDesignProject"
                             target='_blank' rel="noopener noreferrer">
-                              <i class="fab fa-github" aria-hidden="true"></i></a>   |
+                              <i className="fab fa-github" aria-hidden="true"></i></a>   |
                               <a className="link" href="https://first-web-dev-project.netlify.app"
                             target='_blank' rel="noopener noreferrer">Live Link <i className="fas fa-external-link-alt" /></a>
                           </p>
