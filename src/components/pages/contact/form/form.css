@@ -33,7 +33,7 @@ label{
   color: #FFFFFF;
 }
 .form-button {
-    background-color: transparent;
+    background-color: inherit;
     font-family: 'Open Sans';
     font-size: 1.5rem;
     border: solid 1px #ffffff;

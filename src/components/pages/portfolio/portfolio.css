@@ -58,6 +58,7 @@
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative;
+  border-radius: 5%;
 }
 /* hide back of pane during flip */
 
@@ -73,21 +74,21 @@
   background-color: #FFF;
   color: black;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
-  border-radius: 5%;
+  /* border-radius: 5%; */
 }
 /* front pane, placed above back */
 
-.front {
+/* .front {
   z-index: 2;
   border-radius: 5%;
-}
+} */
 
 .back {
   -webkit-transform: rotateY( 180deg);
   -moz-transform: rotateY( 180deg);
   -o-transform: rotateY( 180deg);
   transform: rotateY( 180deg);
-  z-index: 3;
+  /* z-index: 3; */
   margin: 0 auto;
   padding: 20px;
   height: 300px;
@@ -102,11 +103,11 @@
     display: grid;
     width: 100%;
   }
-.col-6 {
-    float: right;
-    display: block;
-    width: 100%;
-  }
+  .col-6 {
+      float: right;
+      display: block;
+      width: 100%;
+    }
 }
 .card {
   margin: 10px;
