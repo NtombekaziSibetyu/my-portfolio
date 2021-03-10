@@ -2,10 +2,12 @@
 .form-content {
 	margin: 0 auto;
   padding: 30px ;
-  background: #343435;
+  background: url('https://github.com/Ceci007/images/blob/master/img-portfolio/footer/footer.png?raw=true') no-repeat;
+  background-size: cover;
+  color: #FFF;
+  background-color: rgba(57, 63, 70, 0.65);
   opacity: 0.9;
 	width: 100%;
-  color: #FFFFFF;
   height: 100%;
 }
 

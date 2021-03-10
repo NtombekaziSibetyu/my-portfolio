@@ -10,21 +10,25 @@ const Contact = (props) => {
         <section>
             <div className='form-content' id="contact">
             <div className="text-center">
-              <h3><strong>GET IN TOUCH</strong> </h3>
+              <h1><strong>GET IN TOUCH</strong> </h1>
               <p className="separator" />
               <div  className="row">
-              <div className="col-md- col-sm-8 mt30">
+              <div className="col">
                 <ContactForm/>
               </div>
               
-              <div className="col-md-4 col-sm-4 address">
+              <div className="col">
+                <div>
+                  <h2>Location</h2>
+                  <h3>Cape Town, Western Cape, South Africa</h3>
+                </div>
                 <div className="address1">
-                  <h4>Email</h4>
-                  <h6>sntombekazi@gmail.com</h6>
+                  <h2>Email</h2>
+                  <h3>sntombekazi@gmail.com</h3>
                 </div>
                 <div className="address2">
-                  <h4>Phones</h4>
-                  <h6>081 348 6222  |  063 044 7645</h6>
+                  <h2>Phones</h2>
+                  <h3>081 348 6222  |  063 044 7645</h3>
                 </div>
               </div>
               </div>

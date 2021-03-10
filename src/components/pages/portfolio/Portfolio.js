@@ -15,7 +15,7 @@ const Portfolio = () => {
             
             <div>
               <div className="text-center">
-              <h3><strong>MY PROJECTS</strong></h3>
+              <h1><strong>MY PROJECTS</strong></h1>
               <p className="separator" />
               </div>
                 <div className="cards">

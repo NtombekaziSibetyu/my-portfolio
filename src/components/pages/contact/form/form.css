@@ -1,7 +1,7 @@
 .form{
   padding: 5px;
   margin: 10px;
-  background-color: transparent;
+  /* background-color: transparent; */
   justify-content: center;
   color: #FFFFFF;
   border: solid 1px #ffffff;
@@ -14,8 +14,13 @@
   justify-content: center;
 }
 .form-control {
-  width: 610px;
+  margin-top: 10px;
+  width: 800px;
   height: 50;
+}
+.form-group{
+  margin-top: 10px;
+  width: 93%;
 }
 .form-header {
   margin: 5px;
@@ -34,10 +39,10 @@ label{
     border: solid 1px #ffffff;
     color: white;
     border-radius: 5px;
-    /* margin-top: 1%;
-    margin: 0px; */
+    /* margin-top: 1%; */
+    margin: 0px;
     padding: 10px;
-    width: 93%;
+    width: 800px;
     text-align: center;
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
@@ -45,6 +50,11 @@ label{
     overflow: hidden;
     cursor: pointer;
   }
+.form-button:focus
+.form-button:hover {
+  background: #FFFFFF;
+  color: black;
+}
 .​form-button:after {
     content: "";
     background:#f3a600;
