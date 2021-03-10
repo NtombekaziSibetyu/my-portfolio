@@ -21,7 +21,6 @@ export default class ContactForm extends React.Component {
           <div className="row">
             <div className="col-md-6 col-sm-6">
               <div>
-                <label>Name   </label>
                 <input
                   type="text"
                   name="name"
@@ -30,8 +29,7 @@ export default class ContactForm extends React.Component {
                   placeholder="Name"
                 />
               </div>
-              <div>
-                <label>Email  </label>  
+              <div>  
                 <input
                   type="email"
                   name="_replyto"
@@ -41,7 +39,6 @@ export default class ContactForm extends React.Component {
                 />
               </div>
               <div>
-              <label>Message  </label> 
                 <textarea
                   name="message"
                   className="form-control form-control-lg"
