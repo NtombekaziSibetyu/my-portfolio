@@ -35,7 +35,7 @@ label{
 .form-button {
     background-color: transparent;
     font-family: 'Open Sans';
-    font-size: 20px;
+    font-size: 1.5rem;
     border: solid 1px #ffffff;
     color: white;
     border-radius: 5px;
@@ -50,10 +50,11 @@ label{
     overflow: hidden;
     cursor: pointer;
   }
-.form-button:focus
+
 .form-button:hover {
-  background: #FFFFFF;
+  background: #777373;
   color: black;
+  border: solid 1px #ffffff;
 }
 .​form-button:after {
     content: "";

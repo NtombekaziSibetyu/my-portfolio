@@ -8,7 +8,7 @@ const Testimonial = () => {
     return (
         <section class="testimonial text-center" id="testimonials">
             <div class="heading white-heading">
-                <h3><strong>TESTIMONIALS</strong></h3>
+                <h1><strong>TESTIMONIALS</strong></h1>
                 <p className="separator" />
             </div>
             <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
