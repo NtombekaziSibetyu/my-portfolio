@@ -13,7 +13,7 @@ const Contact = (props) => {
               <h3><strong>GET IN TOUCH</strong> </h3>
               <p className="separator" />
               <div  className="row">
-              <div className="col-md-8 col-sm-8 mt30">
+              <div className="col-md- col-sm-8 mt30">
                 <ContactForm/>
               </div>
               

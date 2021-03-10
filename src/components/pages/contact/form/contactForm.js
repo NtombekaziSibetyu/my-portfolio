@@ -40,9 +40,7 @@ export default class ContactForm extends React.Component {
                   placeholder="Your email address"
                 />
               </div>
-              
-            </div>
-            <div className="col-md-6 col-sm-6">
+              <div>
               <label>Message  </label> 
                 <textarea
                   name="message"
@@ -51,6 +49,10 @@ export default class ContactForm extends React.Component {
                   rows="4"
                   placeholder="Write your message..."
                 />
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-6">
+              
             </div>
           </div>
           <div className="form-group">

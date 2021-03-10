@@ -34,7 +34,10 @@ const Portfolio = () => {
                         <p>The app lets a user login and add a contact, view contacts, update contacts and delete contacts
 
                         </p>
-                        <div><img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" alt="tag"/> React | JavaScript | Nodejs | MongoDB
+                        <div>
+                          <img src="https://img.icons8.com/ios-filled/20/000000/update-tag.png" 
+                          alt="tag"/>
+                           React | JavaScript | Nodejs | MongoDB
                         </div>
                         <p><a className="link" href="https://github.com/NtombekaziSibetyu/Contact-Keeper"  
                               target='_blank' rel="noopener noreferrer" >
