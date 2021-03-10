@@ -3,9 +3,9 @@
 	margin: 0 auto;
   padding: 30px ;
   background: url('https://github.com/Ceci007/images/blob/master/img-portfolio/footer/footer.png?raw=true') no-repeat;
+  background-color: rgba(24, 24, 24, 0.65);
   background-size: cover;
-  color: #FFF;
-  background-color: rgba(56, 57, 58, 0.65);
+  color: #FFFF;
   opacity: 0.9;
 	width: 100%;
   height: 100%;
