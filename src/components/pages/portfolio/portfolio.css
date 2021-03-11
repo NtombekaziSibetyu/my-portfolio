@@ -1,5 +1,5 @@
 .portfolio-content {
-  margin: 0;
+  margin: 0 auto;
   padding: 30px ;
   opacity: 0.9;
   width: 100%;
@@ -89,7 +89,7 @@
   -moz-transform: rotateY( 180deg);
   -o-transform: rotateY( 180deg);
   transform: rotateY( 180deg);
-  /* z-index: 3; */
+  z-index: 3;
   margin: 0 auto;
   padding: 20px;
   height: 300px;
@@ -100,15 +100,11 @@
   padding: 10px;
 }
 @media screen and (max-width: 600px) {
-  .row { 
-    display: grid;
-    width: 100%;
+  .cards{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
   }
-  .col-6 {
-      float: right;
-      display: block;
-      width: 100%;
-    }
 }
 .card {
   margin: 10px;
