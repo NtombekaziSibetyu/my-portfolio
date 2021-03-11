@@ -8,7 +8,7 @@ const Contact = (props) => {
   
     return (
         <section>
-            <div className='form-content' id="contact">
+            <div className='contact-content' id="contact">
             <div className="text-center">
               <h1><strong>GET IN TOUCH</strong> </h1>
               <p className="separator" />
