@@ -6,7 +6,7 @@ const ProgressBar = () => {
     <section>
       <div className="container-cards" id="skills">
         <div className="skill-text-center">
-          <h1> <strong>COMPETENCIES</strong></h1>
+          <h1> <strong>STACK</strong></h1>
           <p className="separator" />
           <h3>Following are the skills I have acquired since starting my journey in web development.</h3>
         </div>
