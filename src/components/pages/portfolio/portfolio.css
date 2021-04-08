@@ -33,7 +33,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.card-container:hover .card,
+/* .card-container:hover .card,
 .card-container.hover.manual-flip .card {
   -webkit-transform: rotateY( 180deg);
   -moz-transform: rotateY( 180deg);
@@ -47,7 +47,7 @@
   -moz-transform: none;
   -o-transform: none;
   transform: none;
-}
+} */
 
 .card {
   -webkit-transition: -webkit-transform .5s;
@@ -63,7 +63,7 @@
 }
 /* hide back of pane during flip */
 
-.front,
+/* .front,
 .back {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -76,15 +76,15 @@
   color: black;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
   border-radius: 5%;
-}
+} */
 /* front pane, placed above back */
 
-.front {
+/* .front {
   z-index: 2;
   border-radius: 5%;
-}
+} */
 
-.back {
+/* .back {
   -webkit-transform: rotateY( 180deg);
   -moz-transform: rotateY( 180deg);
   -o-transform: rotateY( 180deg);
@@ -94,7 +94,7 @@
   padding: 20px;
   height: 300px;
   border-radius: 5%;
-}
+} */
 .text-center {
   text-align: center;
   padding: 10px;
@@ -125,4 +125,56 @@
     border-radius: 5%;
     object-fit: fill;
 }   
-      
+/* the css from new portfolio */
+/* hover effect for the project cards */
+
+/* .project-item .thumb {
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	height: 200px;
+	width: 250px;
+} */
+
+.card .front {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.card .back {
+	position: absolute;
+	background-color: rgba(255, 153, 0, 0.95);
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s;
+}
+
+.card .back i {
+	text-align: center;
+	margin-top: 35%;
+	display: inline-block;
+	width: 46px;
+	height: 46px;
+	background-color: #fff;
+	line-height: 46px;
+	color: #b8b8b8;
+	border-radius: 50%;
+	font-size: 18px;
+}
+
+.card .back i:hover {
+	background-color: #f17f14;
+	color: #fff;
+	transition: all 0.5s;
+}
+
+.card:hover .back {
+	opacity: 1;
+	visibility: visible;
+}

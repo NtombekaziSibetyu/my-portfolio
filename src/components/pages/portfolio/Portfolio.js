@@ -12,7 +12,6 @@ const Portfolio = () => {
     return (
         <section>
           <div className='portfolio-content' id="portfolio" >
-            
             <div>
               <div className="text-center">
               <h1><strong>MY PROJECTS</strong></h1>
